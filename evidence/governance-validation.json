@@ -1,0 +1,12 @@
+{
+  "operating_controls": {
+    "status": "controls-valid",
+    "validation_scope": "declaration_only",
+    "schema_version": "aizoya-controls-v1",
+    "runtime_verified": false,
+    "release_authorized": false,
+    "automation_target": "95%"
+  },
+  "connections_registry": {"status":"valid","connections":5,"verified":0,"attention":4},
+  "source": "Actual outputs of installed AIZOYA skill validators on this candidate. Not an independent review."
+}

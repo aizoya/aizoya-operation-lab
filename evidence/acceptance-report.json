@@ -1,0 +1,364 @@
+{
+  "generatedAt": "2026-10-18T19:54:50.883Z",
+  "runtime": "v24.19.0",
+  "mode": "DETERMINISTIC_LOCAL",
+  "results": [
+    {
+      "scenario": "normal",
+      "missionId": "a85b2805-0ec9-49f2-8200-606e9d930512",
+      "state": "APPROVAL_READY",
+      "durationMs": 733.953798,
+      "failedAttempts": 0,
+      "taskAttempts": [
+        {
+          "role": "Operations",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Sales",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Kitchen",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Finance",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Quality",
+          "attempts": 1,
+          "error": null
+        }
+      ],
+      "financials": {
+        "role": "Finance",
+        "costCents": 58575,
+        "quoteCents": 83679,
+        "profitCents": 25104,
+        "marginBps": 3000,
+        "budgetOk": true,
+        "minimumMarginBps": 3000,
+        "taxStatus": "EXCLUDED_REQUIRES_REVIEW",
+        "currency": "USD",
+        "source": "synthetic-cost-snapshot"
+      },
+      "blockers": [],
+      "auditValid": true,
+      "evidenceFile": "mission-normal.json",
+      "evidenceHash": "5999eb48653bf6a75127ff31e8b9d2449553f47a0765993f9541cf43e902acf5",
+      "liveModelCalls": 0,
+      "liveSponsorCalls": 0
+    },
+    {
+      "scenario": "shortage",
+      "missionId": "b2205c1f-60a5-4064-afaa-dbf7988dc27e",
+      "state": "BLOCKED",
+      "durationMs": 662.349068,
+      "failedAttempts": 0,
+      "taskAttempts": [
+        {
+          "role": "Operations",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Sales",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Kitchen",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Finance",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Quality",
+          "attempts": 1,
+          "error": null
+        }
+      ],
+      "financials": {
+        "role": "Finance",
+        "costCents": 58575,
+        "quoteCents": 83679,
+        "profitCents": 25104,
+        "marginBps": 3000,
+        "budgetOk": true,
+        "minimumMarginBps": 3000,
+        "taxStatus": "EXCLUDED_REQUIRES_REVIEW",
+        "currency": "USD",
+        "source": "synthetic-cost-snapshot"
+      },
+      "blockers": [
+        "INVENTORY_SHORTAGE"
+      ],
+      "auditValid": true,
+      "evidenceFile": "mission-shortage.json",
+      "evidenceHash": "1664a4173e3c925b849625295d16357f6c2bd63eda5d6815474f7db93fc52e8c",
+      "liveModelCalls": 0,
+      "liveSponsorCalls": 0
+    },
+    {
+      "scenario": "capacity",
+      "missionId": "59f24b98-741f-4aed-a1f3-906204c43d87",
+      "state": "BLOCKED",
+      "durationMs": 680.5725279999999,
+      "failedAttempts": 0,
+      "taskAttempts": [
+        {
+          "role": "Operations",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Sales",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Kitchen",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Finance",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Quality",
+          "attempts": 1,
+          "error": null
+        }
+      ],
+      "financials": {
+        "role": "Finance",
+        "costCents": 58575,
+        "quoteCents": 83679,
+        "profitCents": 25104,
+        "marginBps": 3000,
+        "budgetOk": true,
+        "minimumMarginBps": 3000,
+        "taxStatus": "EXCLUDED_REQUIRES_REVIEW",
+        "currency": "USD",
+        "source": "synthetic-cost-snapshot"
+      },
+      "blockers": [
+        "CAPACITY_EXCEEDED"
+      ],
+      "auditValid": true,
+      "evidenceFile": "mission-capacity.json",
+      "evidenceHash": "73ce4f2495e311086c71a29fd7cd126f3667ec093308a2fdc748d486157d55ba",
+      "liveModelCalls": 0,
+      "liveSponsorCalls": 0
+    },
+    {
+      "scenario": "stale",
+      "missionId": "28175585-9457-4015-9dcf-f2ba8bb306c3",
+      "state": "BLOCKED",
+      "durationMs": 694.207437,
+      "failedAttempts": 0,
+      "taskAttempts": [
+        {
+          "role": "Operations",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Sales",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Kitchen",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Finance",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Quality",
+          "attempts": 1,
+          "error": null
+        }
+      ],
+      "financials": {
+        "role": "Finance",
+        "costCents": 58575,
+        "quoteCents": 83679,
+        "profitCents": 25104,
+        "marginBps": 3000,
+        "budgetOk": true,
+        "minimumMarginBps": 3000,
+        "taxStatus": "EXCLUDED_REQUIRES_REVIEW",
+        "currency": "USD",
+        "source": "synthetic-cost-snapshot"
+      },
+      "blockers": [
+        "STALE_INVENTORY"
+      ],
+      "auditValid": true,
+      "evidenceFile": "mission-stale.json",
+      "evidenceHash": "222580cb10a8f466db651d3f4508f935d1d4b3a449ca944f9237ad01d169c3ac",
+      "liveModelCalls": 0,
+      "liveSponsorCalls": 0
+    },
+    {
+      "scenario": "transient",
+      "missionId": "a3cf16c4-dca4-43c1-b9f6-a6f4615f4a95",
+      "state": "APPROVAL_READY",
+      "durationMs": 1050.2365,
+      "failedAttempts": 1,
+      "taskAttempts": [
+        {
+          "role": "Operations",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Sales",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Kitchen",
+          "attempts": 2,
+          "error": null
+        },
+        {
+          "role": "Finance",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Quality",
+          "attempts": 1,
+          "error": null
+        }
+      ],
+      "financials": {
+        "role": "Finance",
+        "costCents": 58575,
+        "quoteCents": 83679,
+        "profitCents": 25104,
+        "marginBps": 3000,
+        "budgetOk": true,
+        "minimumMarginBps": 3000,
+        "taxStatus": "EXCLUDED_REQUIRES_REVIEW",
+        "currency": "USD",
+        "source": "synthetic-cost-snapshot"
+      },
+      "blockers": [],
+      "auditValid": true,
+      "evidenceFile": "mission-transient.json",
+      "evidenceHash": "d506c208464098b664f4f404983937937d24620e93be50a3cdbc3fa620d91496",
+      "liveModelCalls": 0,
+      "liveSponsorCalls": 0
+    },
+    {
+      "scenario": "timeout",
+      "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+      "state": "BLOCKED",
+      "durationMs": 7279.480868,
+      "failedAttempts": 3,
+      "taskAttempts": [
+        {
+          "role": "Operations",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Sales",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Kitchen",
+          "attempts": 3,
+          "error": "TOOL_TIMEOUT"
+        },
+        {
+          "role": "Finance",
+          "attempts": 0,
+          "error": null
+        },
+        {
+          "role": "Quality",
+          "attempts": 0,
+          "error": null
+        }
+      ],
+      "financials": null,
+      "blockers": [],
+      "auditValid": true,
+      "evidenceFile": "mission-timeout.json",
+      "evidenceHash": "801b30df76c87e608cfa713d1aba84d38d04bb59db5a8ef21435f6074557bb1d",
+      "liveModelCalls": 0,
+      "liveSponsorCalls": 0
+    },
+    {
+      "scenario": "missing_cost",
+      "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+      "state": "BLOCKED",
+      "durationMs": 791.4359980000008,
+      "failedAttempts": 1,
+      "taskAttempts": [
+        {
+          "role": "Operations",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Sales",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Kitchen",
+          "attempts": 1,
+          "error": null
+        },
+        {
+          "role": "Finance",
+          "attempts": 1,
+          "error": "MISSING_COST"
+        },
+        {
+          "role": "Quality",
+          "attempts": 0,
+          "error": null
+        }
+      ],
+      "financials": null,
+      "blockers": [],
+      "auditValid": true,
+      "evidenceFile": "mission-missing_cost.json",
+      "evidenceHash": "de91ce92434224881ba85f9b8ec3f46d76ae3aef1915197d83f3b2ce81b31448",
+      "liveModelCalls": 0,
+      "liveSponsorCalls": 0
+    }
+  ],
+  "measuredBusinessOutcomes": {
+    "realCustomers": 0,
+    "actualRevenueCents": 0,
+    "conversionRate": null,
+    "manualBaselineMs": null,
+    "timeSavings": null,
+    "providerCostUsd": 0,
+    "providerCostBasis": "No external model/provider calls made. Infrastructure cost not measured."
+  }
+}

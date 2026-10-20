@@ -1,0 +1,22 @@
+{
+  "schema_version": "aizoya-controls-v1",
+  "governing_os_version": "2.6",
+  "declaration_scope": "policy_and_local_development_controls_not_release_certification",
+  "security": true,
+  "compliance": true,
+  "evidence": true,
+  "human_approval": true,
+  "environment_separation": true,
+  "secret_scanning": true,
+  "dependency_scanning": true,
+  "audit_logging": true,
+  "telemetry_allowlist": true,
+  "telemetry_scrubbing_tests": true,
+  "telemetry_fields": [],
+  "production_enabled": false,
+  "auto_deploy": false,
+  "auto_publish": false,
+  "independent_review_state": "REVIEW_REQUIRED",
+  "release_state": "HOLD",
+  "notes": "Policy declarations are not proof of compliance or complete runtime security. See docs/SECURITY.md."
+}

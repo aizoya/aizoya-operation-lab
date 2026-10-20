@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-19T22:15:01.612Z",
+  "browser": "Chromium headless",
+  "results": [
+    {
+      "name": "opt-in voice uses proposal facts and stop control (mocked speech; audio quality untested)",
+      "passed": true
+    },
+    {
+      "name": "desktop inquiry→five role workers→review→reload→evidence link",
+      "passed": true,
+      "durationMs": 2935.2637139999997
+    },
+    {
+      "name": "browser revision changes guests, preserves parent and requires a new review",
+      "passed": true
+    },
+    {
+      "name": "shortage blocks review in browser",
+      "passed": true
+    },
+    {
+      "name": "390px mobile rendering and persisted mission",
+      "passed": true,
+      "horizontalOverflow": false
+    },
+    {
+      "name": "stock-constrained guest recovery reruns checks without clearing shortage scenario",
+      "passed": true
+    },
+    {
+      "name": "budget recovery proposes explicit new budget and requires independent review",
+      "passed": true
+    },
+    {
+      "name": "seven recorded acceptance packets reachable from authenticated dashboard",
+      "passed": true
+    },
+    {
+      "name": "hostile audit text stays literal and unknown API route does not reflect HTML",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

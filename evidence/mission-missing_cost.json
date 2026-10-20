@@ -1,0 +1,308 @@
+{
+  "id": "792d59f8-306d-416b-8d7c-544575f54b16",
+  "tenant": "representative-demo",
+  "state": "BLOCKED",
+  "inquiry": {
+    "guests": 50,
+    "menu": "chicken",
+    "serviceAt": "2026-10-21T19:54:50.092Z",
+    "budgetCents": 150000,
+    "allergens": [],
+    "scenario": "missing_cost"
+  },
+  "snapshot": {
+    "version": "synthetic-v1",
+    "capturedAt": "2026-10-18T19:54:50.092Z",
+    "expiresAt": "2026-10-18T20:54:50.092Z",
+    "availableServings": 200,
+    "capacity": 150,
+    "foodCostPerGuest": null,
+    "laborPerGuest": 260,
+    "packagingPerGuest": 95,
+    "fixedDeliveryCost": 4500,
+    "overheadBps": 1000,
+    "minimumMarginBps": 3000,
+    "minimumLeadHours": 24,
+    "recipeAllergens": [
+      "milk"
+    ],
+    "crossContactUnknown": false
+  },
+  "createdAt": "2026-10-18T19:54:50.092Z",
+  "updatedAt": "2026-10-18T19:54:50.632Z",
+  "proposal": null,
+  "proposalHash": null,
+  "tasks": [
+    {
+      "role": "Operations",
+      "state": "DONE",
+      "attempt": 1,
+      "output": {
+        "role": "Operations",
+        "leadHours": 72,
+        "leadTimeOk": true,
+        "source": "mission-snapshot"
+      },
+      "duration_ms": 133.26012900000023,
+      "error": null,
+      "next_at": 0
+    },
+    {
+      "role": "Sales",
+      "state": "DONE",
+      "attempt": 1,
+      "output": {
+        "role": "Sales",
+        "guests": 50,
+        "budgetCents": 150000,
+        "budgetPerGuestCents": 3000,
+        "menu": "chicken"
+      },
+      "duration_ms": 122.68254399999933,
+      "error": null,
+      "next_at": 0
+    },
+    {
+      "role": "Kitchen",
+      "state": "DONE",
+      "attempt": 1,
+      "output": {
+        "role": "Kitchen",
+        "requiredServings": 53,
+        "availableServings": 200,
+        "capacity": 150,
+        "shortage": 0,
+        "capacityOk": true,
+        "sourceFresh": true,
+        "allergenConflict": false,
+        "crossContactUnknown": false
+      },
+      "duration_ms": 124.15069599999879,
+      "error": null,
+      "next_at": 0
+    },
+    {
+      "role": "Finance",
+      "state": "FAILED",
+      "attempt": 1,
+      "output": null,
+      "duration_ms": 154.04817700000058,
+      "error": "MISSING_COST",
+      "next_at": 1792353290832
+    },
+    {
+      "role": "Quality",
+      "state": "PENDING",
+      "attempt": 0,
+      "output": null,
+      "duration_ms": null,
+      "error": null,
+      "next_at": 0
+    }
+  ],
+  "events": [
+    {
+      "seq": 99,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Operations",
+        "type": "mission.created",
+        "at": "2026-10-18T19:54:50.092Z",
+        "dataClass": "REPRESENTATIVE_DATA",
+        "mode": "DETERMINISTIC",
+        "inquiryHash": "500491578b4d7c2d0e98c2e5176bd108c9480159952e96ffa5ebec0bafbbec2b",
+        "snapshotHash": "6900fbbf52495ea88376e31f967d77028b5db4bac44fbd5dff3e8dadf99a5808"
+      },
+      "previous_hash": "GENESIS",
+      "hash": "43406d8580f53e15c629ba039721c126cd1f54f8c0402dc6123583c15e867804",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/99"
+    },
+    {
+      "seq": 100,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Operations",
+        "type": "task.delegated",
+        "at": "2026-10-18T19:54:50.092Z",
+        "to": "Sales"
+      },
+      "previous_hash": "43406d8580f53e15c629ba039721c126cd1f54f8c0402dc6123583c15e867804",
+      "hash": "f5e2627d24e16c07262533008c37e4df75e662da37103de241d7568fb1db168f",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/100"
+    },
+    {
+      "seq": 101,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Operations",
+        "type": "task.delegated",
+        "at": "2026-10-18T19:54:50.092Z",
+        "to": "Kitchen"
+      },
+      "previous_hash": "f5e2627d24e16c07262533008c37e4df75e662da37103de241d7568fb1db168f",
+      "hash": "3fc12fefe736211065ee49fa09b87607c212ea661ab49770b5efd8aecb03040f",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/101"
+    },
+    {
+      "seq": 102,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Operations",
+        "type": "task.delegated",
+        "at": "2026-10-18T19:54:50.093Z",
+        "to": "Finance"
+      },
+      "previous_hash": "3fc12fefe736211065ee49fa09b87607c212ea661ab49770b5efd8aecb03040f",
+      "hash": "daab3c6dce986ec387ccdf4dae58df03884dad2e239949a38c43d6d7ad596363",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/102"
+    },
+    {
+      "seq": 103,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Operations",
+        "type": "task.delegated",
+        "at": "2026-10-18T19:54:50.093Z",
+        "to": "Quality"
+      },
+      "previous_hash": "daab3c6dce986ec387ccdf4dae58df03884dad2e239949a38c43d6d7ad596363",
+      "hash": "4dd394934abe8bb7720825b3b182b979b3c7741ed3bbbf0ae7910a3a1ae38957",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/103"
+    },
+    {
+      "seq": 104,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Operations",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:50.093Z",
+        "attempt": 1,
+        "tool": "assess_lead_time"
+      },
+      "previous_hash": "4dd394934abe8bb7720825b3b182b979b3c7741ed3bbbf0ae7910a3a1ae38957",
+      "hash": "6ce058c9a8de14c1414d569de73347c97f35eda7285ddd0c001c6663292aeba2",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/104"
+    },
+    {
+      "seq": 105,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Operations",
+        "type": "tool.completed",
+        "at": "2026-10-18T19:54:50.227Z",
+        "outputHash": "5f3a9362671ae19f989819136779a832d8f886c23edf47223fe6e4c8ad01601e",
+        "attempt": 1,
+        "durationMs": 133.35046499999953
+      },
+      "previous_hash": "6ce058c9a8de14c1414d569de73347c97f35eda7285ddd0c001c6663292aeba2",
+      "hash": "ef4c1af97c0b12bd66955090474da25abc8db97fcf0f38a46e68741be4e16557",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/105"
+    },
+    {
+      "seq": 106,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Sales",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:50.228Z",
+        "attempt": 1,
+        "tool": "assess_demand"
+      },
+      "previous_hash": "ef4c1af97c0b12bd66955090474da25abc8db97fcf0f38a46e68741be4e16557",
+      "hash": "3a685fe713fee4e4e0e81bd8788c9df6a75ac7dd29e20fe1744d112cb0f92db6",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/106"
+    },
+    {
+      "seq": 107,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Sales",
+        "type": "tool.completed",
+        "at": "2026-10-18T19:54:50.351Z",
+        "outputHash": "b09f3d67c369ebeee430b36d2dccd9a3a096b2fbb6118448643aa190e9120b40",
+        "attempt": 1,
+        "durationMs": 122.77307099999962
+      },
+      "previous_hash": "3a685fe713fee4e4e0e81bd8788c9df6a75ac7dd29e20fe1744d112cb0f92db6",
+      "hash": "2cabe6feeb5d9b969040f25d7a9d7eec2b2fd0d6626aefcb1d9cc127fb841e4f",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/107"
+    },
+    {
+      "seq": 108,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Kitchen",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:50.352Z",
+        "attempt": 1,
+        "tool": "check_inventory_capacity_allergens"
+      },
+      "previous_hash": "2cabe6feeb5d9b969040f25d7a9d7eec2b2fd0d6626aefcb1d9cc127fb841e4f",
+      "hash": "4bfe085c78c175aa6f04ff225dab4188afdc6bbf4294a1ee455abfbd1920a1bc",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/108"
+    },
+    {
+      "seq": 109,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Kitchen",
+        "type": "tool.completed",
+        "at": "2026-10-18T19:54:50.477Z",
+        "outputHash": "fa86d25660839785fc42b678aa8e2ed81057acb4a842a7745b21fb8b6dbca40a",
+        "attempt": 1,
+        "durationMs": 124.25591499999973
+      },
+      "previous_hash": "4bfe085c78c175aa6f04ff225dab4188afdc6bbf4294a1ee455abfbd1920a1bc",
+      "hash": "5ec90110d0ece7ae2670304e4becd3be45a9aaf1bee2f4fed9d037395490d293",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/109"
+    },
+    {
+      "seq": 110,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Finance",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:50.478Z",
+        "attempt": 1,
+        "tool": "calculate_margin"
+      },
+      "previous_hash": "5ec90110d0ece7ae2670304e4becd3be45a9aaf1bee2f4fed9d037395490d293",
+      "hash": "f7a534c9f196a3a45233d8b3100b2c7eb6b15254773688319a2454756f6f0185",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/110"
+    },
+    {
+      "seq": 111,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Finance",
+        "type": "tool.failed",
+        "at": "2026-10-18T19:54:50.632Z",
+        "code": "MISSING_COST",
+        "retryable": false,
+        "attempt": 1,
+        "durationMs": 154.10541400000147
+      },
+      "previous_hash": "f7a534c9f196a3a45233d8b3100b2c7eb6b15254773688319a2454756f6f0185",
+      "hash": "d6673426b24cb8e54754d48e56156b76dc983492d694c09f57600fa1c8c81693",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/111"
+    },
+    {
+      "seq": 112,
+      "payload": {
+        "missionId": "792d59f8-306d-416b-8d7c-544575f54b16",
+        "role": "Operations",
+        "type": "mission.blocked",
+        "at": "2026-10-18T19:54:50.632Z",
+        "reason": "MISSING_COST"
+      },
+      "previous_hash": "d6673426b24cb8e54754d48e56156b76dc983492d694c09f57600fa1c8c81693",
+      "hash": "5eb501b778c15e741adb8cccad6cc5ce3f7c6235b9ece5ad551bc88803d04c86",
+      "evidenceUrl": "/api/missions/792d59f8-306d-416b-8d7c-544575f54b16/events/112"
+    }
+  ],
+  "review": null,
+  "mode": "DETERMINISTIC_LOCAL",
+  "liveAiVerified": false,
+  "externalActionsEnabled": false,
+  "auditValid": true
+}

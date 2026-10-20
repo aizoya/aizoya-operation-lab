@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-18T19:56:27.402Z",
+  "results": [
+    {
+      "name": "TypeScript contracts",
+      "exitCode": 0,
+      "durationMs": 244.43174899999997,
+      "passed": true,
+      "evidence": "typecheck.log"
+    },
+    {
+      "name": "Unit integration security acceptance",
+      "exitCode": 0,
+      "durationMs": 4947.563673000001,
+      "passed": true,
+      "evidence": "tests.tap"
+    },
+    {
+      "name": "Five eve agents compile",
+      "exitCode": 0,
+      "durationMs": 5625.007949,
+      "passed": true,
+      "evidence": "eve-build.log"
+    },
+    {
+      "name": "Dependency audit",
+      "exitCode": 1,
+      "passed": false,
+      "vulnerabilityCounts": {
+        "info": 0,
+        "low": 0,
+        "moderate": 4,
+        "high": 0,
+        "critical": 0,
+        "total": 4
+      },
+      "evidence": "npm-audit.json"
+    },
+    {
+      "name": "CycloneDX SBOM",
+      "exitCode": 0,
+      "passed": true,
+      "evidence": "sbom.json"
+    },
+    {
+      "name": "Limited authored-source credential and HTML sink scan",
+      "passed": true,
+      "findings": [],
+      "htmlSinks": [],
+      "scope": "Heuristic only; not Snyk, Prelint or full SAST"
+    }
+  ],
+  "releaseState": "HOLD",
+  "independentReview": "REVIEW_REQUIRED"
+}

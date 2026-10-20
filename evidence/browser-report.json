@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-20T01:04:03.214Z",
+  "browser": "Chromium headless",
+  "results": [
+    {
+      "name": "assumptions disclosure remains open and retains its DOM node across polling",
+      "passed": true
+    },
+    {
+      "name": "opt-in voice uses proposal facts and stop control (mocked speech; audio quality untested)",
+      "passed": true
+    },
+    {
+      "name": "desktop inquiry→five role workers→review→reload→evidence link",
+      "passed": true,
+      "durationMs": 2944.1935040000003
+    },
+    {
+      "name": "browser revision changes guests, preserves parent and requires a new review",
+      "passed": true
+    },
+    {
+      "name": "shortage blocks review in browser",
+      "passed": true
+    },
+    {
+      "name": "390px mobile rendering and persisted mission",
+      "passed": true,
+      "horizontalOverflow": false
+    },
+    {
+      "name": "blocked order cannot draft; recovered customer draft excludes internal cost/margin and exports with terms",
+      "passed": true
+    },
+    {
+      "name": "Masky local assets load; recordings gated to matching recovery; stop control works",
+      "passed": true,
+      "availableClips": 5
+    },
+    {
+      "name": "stock-constrained guest recovery reruns checks without clearing shortage scenario",
+      "passed": true
+    },
+    {
+      "name": "budget recovery proposes explicit new budget and requires independent review",
+      "passed": true
+    },
+    {
+      "name": "five-role AI browser flow, tool handoffs and reload persistence (mock provider; no live API verification)",
+      "passed": true
+    },
+    {
+      "name": "seven recorded acceptance packets reachable from authenticated dashboard",
+      "passed": true
+    },
+    {
+      "name": "hostile audit text stays literal and unknown API route does not reflect HTML",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

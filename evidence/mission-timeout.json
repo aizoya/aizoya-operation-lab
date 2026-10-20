@@ -1,0 +1,329 @@
+{
+  "id": "764db899-b247-4f7a-bf16-34021a8fc226",
+  "tenant": "representative-demo",
+  "state": "BLOCKED",
+  "inquiry": {
+    "guests": 50,
+    "menu": "chicken",
+    "serviceAt": "2026-10-21T19:54:42.812Z",
+    "budgetCents": 150000,
+    "allergens": [],
+    "scenario": "timeout"
+  },
+  "snapshot": {
+    "version": "synthetic-v1",
+    "capturedAt": "2026-10-18T19:54:42.812Z",
+    "expiresAt": "2026-10-18T20:54:42.812Z",
+    "availableServings": 200,
+    "capacity": 150,
+    "foodCostPerGuest": 620,
+    "laborPerGuest": 260,
+    "packagingPerGuest": 95,
+    "fixedDeliveryCost": 4500,
+    "overheadBps": 1000,
+    "minimumMarginBps": 3000,
+    "minimumLeadHours": 24,
+    "recipeAllergens": [
+      "milk"
+    ],
+    "crossContactUnknown": false
+  },
+  "createdAt": "2026-10-18T19:54:42.812Z",
+  "updatedAt": "2026-10-18T19:54:49.836Z",
+  "proposal": null,
+  "proposalHash": null,
+  "tasks": [
+    {
+      "role": "Operations",
+      "state": "DONE",
+      "attempt": 1,
+      "output": {
+        "role": "Operations",
+        "leadHours": 72,
+        "leadTimeOk": true,
+        "source": "mission-snapshot"
+      },
+      "duration_ms": 126.75046499999962,
+      "error": null,
+      "next_at": 0
+    },
+    {
+      "role": "Sales",
+      "state": "DONE",
+      "attempt": 1,
+      "output": {
+        "role": "Sales",
+        "guests": 50,
+        "budgetCents": 150000,
+        "budgetPerGuestCents": 3000,
+        "menu": "chicken"
+      },
+      "duration_ms": 126.41658999999981,
+      "error": null,
+      "next_at": 0
+    },
+    {
+      "role": "Kitchen",
+      "state": "FAILED",
+      "attempt": 3,
+      "output": null,
+      "duration_ms": 2005.725480000001,
+      "error": "TOOL_TIMEOUT",
+      "next_at": 1792353290635
+    },
+    {
+      "role": "Finance",
+      "state": "PENDING",
+      "attempt": 0,
+      "output": null,
+      "duration_ms": null,
+      "error": null,
+      "next_at": 0
+    },
+    {
+      "role": "Quality",
+      "state": "PENDING",
+      "attempt": 0,
+      "output": null,
+      "duration_ms": null,
+      "error": null,
+      "next_at": 0
+    }
+  ],
+  "events": [
+    {
+      "seq": 83,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Operations",
+        "type": "mission.created",
+        "at": "2026-10-18T19:54:42.813Z",
+        "dataClass": "REPRESENTATIVE_DATA",
+        "mode": "DETERMINISTIC",
+        "inquiryHash": "4fb4bba63e6bcf61dc9b0bcfdfbd7d5e67e18828efb8f47c474e9a309783d238",
+        "snapshotHash": "b71bc80e35ad912b67bbc244bbde9cf85e994ae7b77958b4fd1a941fd39e82e1"
+      },
+      "previous_hash": "GENESIS",
+      "hash": "7d23f91d00fcb9ab2f5718c124ad4710525cb0759fcc26a95c79fa2351a36077",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/83"
+    },
+    {
+      "seq": 84,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Operations",
+        "type": "task.delegated",
+        "at": "2026-10-18T19:54:42.813Z",
+        "to": "Sales"
+      },
+      "previous_hash": "7d23f91d00fcb9ab2f5718c124ad4710525cb0759fcc26a95c79fa2351a36077",
+      "hash": "197c73ca25d2d87102326c8df30503358f11f2cdc12aa030618528546a2d6b79",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/84"
+    },
+    {
+      "seq": 85,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Operations",
+        "type": "task.delegated",
+        "at": "2026-10-18T19:54:42.813Z",
+        "to": "Kitchen"
+      },
+      "previous_hash": "197c73ca25d2d87102326c8df30503358f11f2cdc12aa030618528546a2d6b79",
+      "hash": "3f43a1f84fd4a1f3a485fae5163a5ed1f644333584f25051fc83e9351270f4a4",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/85"
+    },
+    {
+      "seq": 86,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Operations",
+        "type": "task.delegated",
+        "at": "2026-10-18T19:54:42.813Z",
+        "to": "Finance"
+      },
+      "previous_hash": "3f43a1f84fd4a1f3a485fae5163a5ed1f644333584f25051fc83e9351270f4a4",
+      "hash": "2f4e49c1b718e81f879a918e3e85881a3ac7c53b7844c45a80befca4928e1715",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/86"
+    },
+    {
+      "seq": 87,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Operations",
+        "type": "task.delegated",
+        "at": "2026-10-18T19:54:42.813Z",
+        "to": "Quality"
+      },
+      "previous_hash": "2f4e49c1b718e81f879a918e3e85881a3ac7c53b7844c45a80befca4928e1715",
+      "hash": "09ac55526ea6987af77d9f48f50024b870e814fc7c816b1ae6defa1ef4d0912d",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/87"
+    },
+    {
+      "seq": 88,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Operations",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:42.814Z",
+        "attempt": 1,
+        "tool": "assess_lead_time"
+      },
+      "previous_hash": "09ac55526ea6987af77d9f48f50024b870e814fc7c816b1ae6defa1ef4d0912d",
+      "hash": "00643441221a3ecc4e64f70c916266e6e18e3aeebe78f13b0d517687a05fd474",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/88"
+    },
+    {
+      "seq": 89,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Operations",
+        "type": "tool.completed",
+        "at": "2026-10-18T19:54:42.941Z",
+        "outputHash": "5f3a9362671ae19f989819136779a832d8f886c23edf47223fe6e4c8ad01601e",
+        "attempt": 1,
+        "durationMs": 126.8136099999997
+      },
+      "previous_hash": "00643441221a3ecc4e64f70c916266e6e18e3aeebe78f13b0d517687a05fd474",
+      "hash": "6ee93e0517078edfcf68caf9cf51d9a00efb5f03685ca588f8c6cea95ab3264d",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/89"
+    },
+    {
+      "seq": 90,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Sales",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:42.942Z",
+        "attempt": 1,
+        "tool": "assess_demand"
+      },
+      "previous_hash": "6ee93e0517078edfcf68caf9cf51d9a00efb5f03685ca588f8c6cea95ab3264d",
+      "hash": "c854f4b52856439b52015ec9df6115203c81191102128d30dbb60d3c421f792d",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/90"
+    },
+    {
+      "seq": 91,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Sales",
+        "type": "tool.completed",
+        "at": "2026-10-18T19:54:43.068Z",
+        "outputHash": "b09f3d67c369ebeee430b36d2dccd9a3a096b2fbb6118448643aa190e9120b40",
+        "attempt": 1,
+        "durationMs": 126.67921699999988
+      },
+      "previous_hash": "c854f4b52856439b52015ec9df6115203c81191102128d30dbb60d3c421f792d",
+      "hash": "87c255f6834885fd299c9481ed0f81b2430394074a460f92f8fe797bc77b6bf7",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/91"
+    },
+    {
+      "seq": 92,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Kitchen",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:43.069Z",
+        "attempt": 1,
+        "tool": "check_inventory_capacity_allergens"
+      },
+      "previous_hash": "87c255f6834885fd299c9481ed0f81b2430394074a460f92f8fe797bc77b6bf7",
+      "hash": "7d940dfd7d2029aac6a0285720cf43392d47208bec2f4f4a55060286f1a23367",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/92"
+    },
+    {
+      "seq": 93,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Kitchen",
+        "type": "tool.failed",
+        "at": "2026-10-18T19:54:45.072Z",
+        "code": "TOOL_TIMEOUT",
+        "retryable": true,
+        "attempt": 1,
+        "durationMs": 2002.3415699999996
+      },
+      "previous_hash": "7d940dfd7d2029aac6a0285720cf43392d47208bec2f4f4a55060286f1a23367",
+      "hash": "c09d6cc7f6260b0a470cf6891d31c61fc053dded2276d8315078ddc523acdbb8",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/93"
+    },
+    {
+      "seq": 94,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Kitchen",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:45.324Z",
+        "attempt": 2,
+        "tool": "check_inventory_capacity_allergens"
+      },
+      "previous_hash": "c09d6cc7f6260b0a470cf6891d31c61fc053dded2276d8315078ddc523acdbb8",
+      "hash": "3f1ee85723491a37f461c7f3e9afbcdaedfb8db040c6c29e5184e39b598ef9ee",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/94"
+    },
+    {
+      "seq": 95,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Kitchen",
+        "type": "tool.failed",
+        "at": "2026-10-18T19:54:47.326Z",
+        "code": "TOOL_TIMEOUT",
+        "retryable": true,
+        "attempt": 2,
+        "durationMs": 2002.6946429999998
+      },
+      "previous_hash": "3f1ee85723491a37f461c7f3e9afbcdaedfb8db040c6c29e5184e39b598ef9ee",
+      "hash": "928ba234f608a4da11a0d7a709553385fc365dce36eb7265703143cd19373e1a",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/95"
+    },
+    {
+      "seq": 96,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Kitchen",
+        "type": "tool.started",
+        "at": "2026-10-18T19:54:47.830Z",
+        "attempt": 3,
+        "tool": "check_inventory_capacity_allergens"
+      },
+      "previous_hash": "928ba234f608a4da11a0d7a709553385fc365dce36eb7265703143cd19373e1a",
+      "hash": "8710c1aece71fbc43c111e34218adb40f2fae5ae5418cd77637d5bbaf50db322",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/96"
+    },
+    {
+      "seq": 97,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Kitchen",
+        "type": "tool.failed",
+        "at": "2026-10-18T19:54:49.836Z",
+        "code": "TOOL_TIMEOUT",
+        "retryable": true,
+        "attempt": 3,
+        "durationMs": 2005.7830470000008
+      },
+      "previous_hash": "8710c1aece71fbc43c111e34218adb40f2fae5ae5418cd77637d5bbaf50db322",
+      "hash": "40802ca6d2d5503aaec2d60999f09342e64dd00c4d3a1b680b7adab2183cfd95",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/97"
+    },
+    {
+      "seq": 98,
+      "payload": {
+        "missionId": "764db899-b247-4f7a-bf16-34021a8fc226",
+        "role": "Operations",
+        "type": "mission.blocked",
+        "at": "2026-10-18T19:54:49.836Z",
+        "reason": "TOOL_TIMEOUT"
+      },
+      "previous_hash": "40802ca6d2d5503aaec2d60999f09342e64dd00c4d3a1b680b7adab2183cfd95",
+      "hash": "21a97c61a7cac46ffaf989ea2f4c6be287d81a8a72abe2c148f46fce3b6d270f",
+      "evidenceUrl": "/api/missions/764db899-b247-4f7a-bf16-34021a8fc226/events/98"
+    }
+  ],
+  "review": null,
+  "mode": "DETERMINISTIC_LOCAL",
+  "liveAiVerified": false,
+  "externalActionsEnabled": false,
+  "auditValid": true
+}

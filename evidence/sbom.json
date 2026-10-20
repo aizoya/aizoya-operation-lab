@@ -1,0 +1,6505 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a289c1ec-3019-4b66-a278-eef40981c6ab",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-18T19:56:27.318Z",
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "npm",
+        "name": "cli",
+        "version": "11.9.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "aizoya-autonomous-operations@0.0.0",
+      "type": "library",
+      "name": "aizoya-autonomous-operations",
+      "version": "0.0.0",
+      "scope": "required",
+      "purl": "pkg:npm/aizoya-autonomous-operations@0.0.0",
+      "properties": [],
+      "externalReferences": []
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "@ai-sdk/gateway@4.0.110",
+      "type": "library",
+      "name": "@ai-sdk/gateway",
+      "version": "4.0.110",
+      "scope": "required",
+      "purl": "pkg:npm/%40ai-sdk/gateway@4.0.110",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@ai-sdk/gateway/-/gateway-4.0.110.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/vercel/ai"
+        },
+        {
+          "type": "website",
+          "url": "https://ai-sdk.dev/docs"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/ai/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e48c27391eafeca0be0fd79d754aac0a86d797f15b2d455bd8b69073fbb2b907693f7fe7f6cd182dcf73978fd6dc84bf476a631eba947c2cc401e3aeedb14ba1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@vercel/oidc@3.2.0",
+      "type": "library",
+      "name": "@vercel/oidc",
+      "version": "3.2.0",
+      "scope": "required",
+      "description": "Runtime OIDC helpers intended for use with Vercel Functions",
+      "purl": "pkg:npm/%40vercel/oidc@3.2.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@vercel/oidc/-/oidc-3.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel/vercel.git"
+        },
+        {
+          "type": "website",
+          "url": "https://vercel.com"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/vercel/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "532729ac7dd3ea7de31f4938e0d1cc6bba671471aefcdd39323a2362bf8c73a23ba1b9282c826e8d25b08a7d690af772fde3b1ac8fe5dee0cb42c99cace6f8ba"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@ai-sdk/provider@4.0.26",
+      "type": "library",
+      "name": "@ai-sdk/provider",
+      "version": "4.0.26",
+      "scope": "required",
+      "purl": "pkg:npm/%40ai-sdk/provider@4.0.26",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@ai-sdk/provider/-/provider-4.0.26.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/vercel/ai"
+        },
+        {
+          "type": "website",
+          "url": "https://ai-sdk.dev/docs"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/ai/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "059e38dee044aba1ee300f99e1bec7a66eb91a9652a3ba56aa762aa5fffbb403b70b8f096edbc084e136267383163fa3a1db19cdf447900c906fae31b83dad65"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@ai-sdk/provider-utils@5.0.58",
+      "type": "library",
+      "name": "@ai-sdk/provider-utils",
+      "version": "5.0.58",
+      "scope": "required",
+      "purl": "pkg:npm/%40ai-sdk/provider-utils@5.0.58",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@ai-sdk/provider-utils/-/provider-utils-5.0.58.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/vercel/ai"
+        },
+        {
+          "type": "website",
+          "url": "https://ai-sdk.dev/docs"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/ai/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8974b0291ffb2e91f3025cab525f9b4e29f0ce6677366ba9d6f8b03e2b0ce469f97288117481b8ad5f70d590ee28572b5f2bbf01e56ce36135097ff468dc2b7d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@borewit/text-codec@0.2.2",
+      "type": "library",
+      "name": "@borewit/text-codec",
+      "version": "0.2.2",
+      "scope": "optional",
+      "author": "Borewit",
+      "description": "Text Decoder",
+      "purl": "pkg:npm/%40borewit/text-codec@0.2.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@borewit/text-codec/-/text-codec-0.2.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Borewit/text-codec.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0c36917a1b2c83568dac7e3eda19e3d41eef9d41848d4e8e225c9176431dd1a51d214bca5eb25f5eccbc2d5b57032ec346f61596e59b32ca6c461cf695c5b499"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@mixmark-io/domino@2.2.0",
+      "type": "library",
+      "name": "@mixmark-io/domino",
+      "version": "2.2.0",
+      "scope": "optional",
+      "author": "Felix Gnass <fgnass@gmail.com>",
+      "description": "Server-side DOM implementation based on Mozilla's dom.js",
+      "purl": "pkg:npm/%40mixmark-io/domino@2.2.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@mixmark-io/domino/-/domino-2.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mixmark-io/domino.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "636f0f476e5b1d7520f3c90257b9e2bd7acfd8d8f646e799dff97f8ddc7a27d7fc2789ec1067205f441eea5b7b3daf89efdfa43e2254dcb82e47a3bfeb3acb3b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@mongodb-js/zstd@7.0.0",
+      "type": "library",
+      "name": "@mongodb-js/zstd",
+      "version": "7.0.0",
+      "scope": "optional",
+      "purl": "pkg:npm/%40mongodb-js/zstd@7.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@mongodb-js/zstd/-/zstd-7.0.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "990dacd2961889abfeb73083474e59a6d7a6f04cb6bfcb35d65ae2e51286853b4be023950af542939bedc9160d4fef4bf2a49fc8eaaa79f17d52d9d6f260b98c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@nodable/entities@3.1.0",
+      "type": "library",
+      "name": "@nodable/entities",
+      "version": "3.1.0",
+      "scope": "optional",
+      "author": "Amit Gupta (https://solothought.com)",
+      "description": "Entity parser for XML, HTML, External entites with security and NCR control",
+      "purl": "pkg:npm/%40nodable/entities@3.1.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@nodable/entities/-/entities-3.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/nodable/val-parsers.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2ec4bf0e31ebfae0cceb8ec6aeefdc03cf89ddadc77e1b6dc0228bcaea3237bc974c50b1281b5280c401beb5bdc8d3dadbfcc345436e18f687e50505a1ae1aad"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@oxc-project/types@0.154.0",
+      "type": "library",
+      "name": "@oxc-project/types",
+      "version": "0.154.0",
+      "scope": "required",
+      "author": "Boshen and oxc contributors",
+      "description": "Types for Oxc AST nodes",
+      "purl": "pkg:npm/%40oxc-project/types@0.154.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@oxc-project/types/-/types-0.154.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/oxc-project/oxc.git"
+        },
+        {
+          "type": "website",
+          "url": "https://oxc.rs"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2983941901652d647eb3840c57643d928dfc4d99bb11d3bced09bbaef64baa4ff079bb1efdc0e3b72c4a860ff8ee5d1bc826ecfe4e3a2d3f2a7383ca8c08a4cc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@rolldown/binding-linux-x64-gnu@1.2.14",
+      "type": "library",
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.14",
+      "scope": "optional",
+      "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+      "purl": "pkg:npm/%40rolldown/binding-linux-x64-gnu@1.2.14",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.14.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/rolldown/rolldown.git"
+        },
+        {
+          "type": "website",
+          "url": "https://rolldown.rs/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/rolldown/rolldown/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5b16a55f382b2d5a4a0bddf17e9689de0097516cde0abf854426c3543da6500cb82fa568de5355cf47a9504529c4f58990b35853033839222292fdfa389f662e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@rolldown/binding-linux-x64-musl@1.2.14",
+      "type": "library",
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.2.14",
+      "scope": "optional",
+      "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+      "purl": "pkg:npm/%40rolldown/binding-linux-x64-musl@1.2.14",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.14.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/rolldown/rolldown.git"
+        },
+        {
+          "type": "website",
+          "url": "https://rolldown.rs/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/rolldown/rolldown/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dc6ded9c0993a5d93d8cedc642dc875ea7850f64a579c7d3c2cfd8dccda69a3f67301c30b8b4f892eafcb1929ebbb10d5074a954eddc22c9b9039d8b1165b096"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@rolldown/pluginutils@1.0.1",
+      "type": "library",
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "scope": "required",
+      "description": "Plugin utilities for Rolldown",
+      "purl": "pkg:npm/%40rolldown/pluginutils@1.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/rolldown/plugins.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/rolldown/plugins/tree/main/packages/pluginutils#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/rolldown/plugins/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "da3f5b1ade4987c863faf3ed8333ed97bda3d324711c0cae9a8a3a4cd7c08ec2c1d3852da52bcf6cf703701331cfb9fef42601d1cd46c501716118368e29aa1b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@sparticuz/chromium@153.0.0",
+      "type": "library",
+      "name": "@sparticuz/chromium",
+      "version": "153.0.0",
+      "scope": "required",
+      "author": "Kyle McNally",
+      "description": "Chromium Binary for Serverless Platforms",
+      "purl": "pkg:npm/%40sparticuz/chromium@153.0.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@sparticuz/chromium/-/chromium-153.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/Sparticuz/chromium.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Sparticuz/chromium"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Sparticuz/chromium/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8e2196a92bcf31dbb8f8ff538a562a011ef21063c41c8371fa50af13f36a34efc41d8cc5ff1d615222394fa8a8548b7b744cbb9fcf1bcb24f4be4f9d9ec810c0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "tar-fs@3.1.3",
+      "type": "library",
+      "name": "tar-fs",
+      "version": "3.1.3",
+      "scope": "required",
+      "author": "Mathias Buus",
+      "description": "filesystem bindings for tar-stream",
+      "purl": "pkg:npm/tar-fs@3.1.3",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/tar-fs/-/tar-fs-3.1.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mafintosh/tar-fs.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/tar-fs"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/tar-fs/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fe15380179c8759bbe1af975a64d282397f91f15ac08946d636685689764f55bf22f8f03594ea253958020f1bec088b562f580e9e4c9bc8be23ffb4c01964dc1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "tar-stream@3.2.2",
+      "type": "library",
+      "name": "tar-stream",
+      "version": "3.2.2",
+      "scope": "required",
+      "author": "Mathias Buus <mathiasbuus@gmail.com>",
+      "description": "tar-stream is a streaming tar parser and generator and nothing else. It operates purely using streams which means you can easily extract/parse tarballs without ever hitting the file system.",
+      "purl": "pkg:npm/tar-stream@3.2.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/tar-stream/-/tar-stream-3.2.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mafintosh/tar-stream.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/tar-stream"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/tar-stream/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fbc35ea874634161fd9d8970a3681a980308999095cc8e14a04803a56a2b06df4e11fa698999feb9292c93340a3d6219ca38bf0bc7e958eeeeebd1b40d7d2d6e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@standard-schema/spec@1.1.0",
+      "type": "library",
+      "name": "@standard-schema/spec",
+      "version": "1.1.0",
+      "scope": "required",
+      "author": "Colin McDonnell",
+      "description": "A family of specs for interoperable TypeScript",
+      "purl": "pkg:npm/%40standard-schema/spec@1.1.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/standard-schema/standard-schema"
+        },
+        {
+          "type": "website",
+          "url": "https://standardschema.dev"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "976685cb98c02e19e21b91e0aab0fa8d72e2feb516acabea37fa89c7aca826c80a85b95577e8aaa94e110976af9bf8cf8adc83a394c2bca327a632a73ab8b2d3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@tokenizer/inflate@0.4.1",
+      "type": "library",
+      "name": "@tokenizer/inflate",
+      "version": "0.4.1",
+      "scope": "optional",
+      "author": "Borewit",
+      "description": "Tokenized zip support",
+      "purl": "pkg:npm/%40tokenizer/inflate@0.4.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@tokenizer/inflate/-/inflate-0.4.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/Borewit/tokenizer-inflate.git"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "hhttps://github.com/Borewit/tokenizer-inflate/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "da602ffbca641ba18866217590d8358c08e1dbb203c443cac1d1ae977b277f3b457ab7cf188d4b8c37b3669de2ec11255e89a9a84b4f9a83f1e9cdb082d5ac38"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@tokenizer/token@0.3.0",
+      "type": "library",
+      "name": "@tokenizer/token",
+      "version": "0.3.0",
+      "scope": "optional",
+      "author": "Borewit",
+      "description": "TypeScript definition for strtok3 token",
+      "purl": "pkg:npm/%40tokenizer/token@0.3.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/Borewit/tokenizer-token.git"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Borewit/tokenizer-token/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3af8c5fb3e752f7a2fd0ec8053476ecec62ebced353c7ef1e2de83271fa0b9a8604e704792125d1bbb2841e4d214b58ddde7e71f289b67867c97612e5b024ddc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@types/node@24.19.2",
+      "type": "library",
+      "name": "@types/node",
+      "version": "24.19.2",
+      "scope": "required",
+      "description": "TypeScript definitions for node",
+      "purl": "pkg:npm/%40types/node@24.19.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@types/node/-/node-24.19.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f77778f700962640b237ceccc4ba4d37a2973c2c05c3b6d5520efd986515d4e4b8d09196c150abf27eb50d7092ab3ec257afd57cf91bef179ceee3f633e40759"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@typescript/typescript-linux-x64@7.0.2",
+      "type": "library",
+      "name": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "scope": "optional",
+      "author": "Microsoft Corp.",
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "purl": "pkg:npm/%40typescript/typescript-linux-x64@7.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@typescript/typescript-linux-x64/-/typescript-linux-x64-7.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/microsoft/TypeScript.git"
+        },
+        {
+          "type": "website",
+          "url": "https://www.typescriptlang.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/microsoft/TypeScript/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "11875fd9c360eeb8025899f109d27e177577f4ef2285bdfb78702ed4b2bca00162ce04d06cf38aef31c75db3edf2b5f6e023aa3835de237b087f47c25c6ec7fc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@vercel/cli-config@0.3.1",
+      "type": "library",
+      "name": "@vercel/cli-config",
+      "version": "0.3.1",
+      "scope": "required",
+      "description": "Shared core utilities for Vercel global configuration",
+      "purl": "pkg:npm/%40vercel/cli-config@0.3.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@vercel/cli-config/-/cli-config-0.3.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/vercel/vercel.git"
+        },
+        {
+          "type": "website",
+          "url": "https://vercel.com/docs/projects/project-configuration/global-configuration"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b0849bca0aa515761bf2a7cfbbffb609ffc0f088eb940b9978f75a83710342bd8f440e39e6ced466d97d468ebbe025ac07fb1a0519b3de3124c3462c42cf0ea1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "zod@4.1.11",
+      "type": "library",
+      "name": "zod",
+      "version": "4.1.11",
+      "scope": "required",
+      "author": "Colin McDonnell <zod@colinhacks.com>",
+      "description": "TypeScript-first schema declaration and validation library with static type inference",
+      "purl": "pkg:npm/zod@4.1.11",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/zod/-/zod-4.1.11.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/colinhacks/zod.git"
+        },
+        {
+          "type": "website",
+          "url": "https://zod.dev"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/colinhacks/zod/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "58fb2ac312134b6b73c756f38482ac12cd7d0010f9be60956b8c41a36b6afd2ad5e11359b5fc2cd449c25905cceb287c6c3d3c6b589dbe4079319481899b23c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@vercel/cli-exec@1.0.1",
+      "type": "library",
+      "name": "@vercel/cli-exec",
+      "version": "1.0.1",
+      "scope": "required",
+      "description": "Helpers for locating and executing the Vercel CLI",
+      "purl": "pkg:npm/%40vercel/cli-exec@1.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@vercel/cli-exec/-/cli-exec-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel/vercel.git"
+        },
+        {
+          "type": "website",
+          "url": "https://vercel.com"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/vercel/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83d5dead5889fe9699ba3b9f5d872ee57608daf536aed078b207698d41dd7b94673a4766a6ed27807e3a2c21461e83d73bf0bea833d273320721137ef10d9829"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@vercel/connect@2.5.2",
+      "type": "library",
+      "name": "@vercel/connect",
+      "version": "2.5.2",
+      "scope": "required",
+      "purl": "pkg:npm/%40vercel/connect@2.5.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@vercel/connect/-/connect-2.5.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel/vercel.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8bb6190b29adf0cef2c0e28d35c2c0b64c15dafd5ee6bccf5b3da65422a55c0d73065f6306a44144bfc803205539726c7384f53b03950d241892cc0427777c53"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@vercel/oidc@4.0.1",
+      "type": "library",
+      "name": "@vercel/oidc",
+      "version": "4.0.1",
+      "scope": "required",
+      "description": "Runtime OIDC helpers intended for use with Vercel Functions",
+      "purl": "pkg:npm/%40vercel/oidc@4.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@vercel/oidc/-/oidc-4.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel/vercel.git"
+        },
+        {
+          "type": "website",
+          "url": "https://vercel.com"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/vercel/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "97fff13260d38f6591e8432d7c0d81105da847b5622820f5482c6a14a0a7d7ff3039907183187191e8121a2f742024dcd6b079d196cab8f22c95cf1a27102a7b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "@workflow/serde@4.1.0",
+      "type": "library",
+      "name": "@workflow/serde",
+      "version": "4.1.0",
+      "scope": "required",
+      "description": "Serialization symbols for custom class serialization in Workflow SDK",
+      "purl": "pkg:npm/%40workflow/serde@4.1.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/@workflow/serde/-/serde-4.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/vercel/workflow.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a5abf81760688ab102591ecd7f54cab7ed9e1137018fb8e3e1c05e7d0f155d0080e8d3e468a78b7e3ff33208bedf3615e592014f81ae522a61b23d3f6fd84f41"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ai@7.0.137",
+      "type": "library",
+      "name": "ai",
+      "version": "7.0.137",
+      "scope": "required",
+      "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
+      "purl": "pkg:npm/ai@7.0.137",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ai/-/ai-7.0.137.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/vercel/ai"
+        },
+        {
+          "type": "website",
+          "url": "https://ai-sdk.dev/docs"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/ai/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "271acf9124249f120dfe062a4b751092c1314ba796236dd030f06b28c19779e14786bbbac45b45e0cb8cab5ed66870fe9573e1d259dee87d0133667654c5bd11"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "anynum@1.0.1",
+      "type": "library",
+      "name": "anynum",
+      "version": "1.0.1",
+      "scope": "optional",
+      "author": "Amit Gupta (https://solothought.work/)",
+      "description": "Normalize all Unicode decimal digits (Devanagari, Arabic, Thai, etc.) to ASCII numerals. Zero dependencies, performance-first.",
+      "purl": "pkg:npm/anynum@1.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/anynum/-/anynum-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/NaturalIntelligence/anynum"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "37afff14b113fed5d834cfc5e8005c6b5a07e9f581f8a953b7dd3d2dedbc58c0c193ca1a4f8bd8d7b0c2af083632f9aea942addcd8b837974627f12806070ee8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "b4a@1.9.0",
+      "type": "library",
+      "name": "b4a",
+      "version": "1.9.0",
+      "scope": "required",
+      "author": "Holepunch",
+      "description": "Bridging the gap between buffers and typed arrays",
+      "purl": "pkg:npm/b4a@1.9.0",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/b4a/-/b4a-1.9.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/holepunchto/b4a.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/holepunchto/b4a#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/holepunchto/b4a/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7697dc17d7c3351ebef9cb615d1ebb8b2860a96cbd081a2e02f2168489edcc11ba72f2bf72720f8994230708bf66a8e30440c67e8343b660749138eba0e277a5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bare-events@2.9.2",
+      "type": "library",
+      "name": "bare-events",
+      "version": "2.9.2",
+      "scope": "required",
+      "author": "Holepunch",
+      "description": "Event emitters for JavaScript",
+      "purl": "pkg:npm/bare-events@2.9.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bare-events/-/bare-events-2.9.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/holepunchto/bare-events.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/holepunchto/bare-events#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/holepunchto/bare-events/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0083ca8a857bfd8ffc29f6770008633c9c4b2db638f52eb8626e436a4665520ef9a90893814abd8442681306b87947b33d4957472fe2e4da6c2afa3d8e02a6a0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bare-fs@4.8.4",
+      "type": "library",
+      "name": "bare-fs",
+      "version": "4.8.4",
+      "scope": "required",
+      "author": "Holepunch",
+      "description": "Native file system operations for Bare",
+      "purl": "pkg:npm/bare-fs@4.8.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bare-fs/-/bare-fs-4.8.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/holepunchto/bare-fs.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/holepunchto/bare-fs#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/holepunchto/bare-fs/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "30f0b67b2ae96e4dc0f3bdec2b8cbaae4f88bf8a367a7c538c767ccc7dc73b49a3ae99b95e39e0b98d9799f89d22c0d5eaf9e3a5b301294009a55d08483d92b1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bare-path@3.1.2",
+      "type": "library",
+      "name": "bare-path",
+      "version": "3.1.2",
+      "scope": "required",
+      "author": "Holepunch",
+      "description": "Path manipulation library for JavaScript",
+      "purl": "pkg:npm/bare-path@3.1.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bare-path/-/bare-path-3.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/holepunchto/bare-path.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/holepunchto/bare-path#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/holepunchto/bare-path/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "67229bb2ebaa2ba020d0af295fa5794f1aba5de251bd8fb05ee7271464638b25583fd6160e9210ba093f6fe7a7458ac460125aa8bce08514295cf311ef7e3537"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bare-stream@2.13.4",
+      "type": "library",
+      "name": "bare-stream",
+      "version": "2.13.4",
+      "scope": "required",
+      "author": "Holepunch",
+      "description": "Streaming data for JavaScript",
+      "purl": "pkg:npm/bare-stream@2.13.4",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bare-stream/-/bare-stream-2.13.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/holepunchto/bare-stream.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/holepunchto/bare-stream#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/holepunchto/bare-stream/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3dcad0f2554b6e226c70d9b529ecfe629e06cb800719c375973c23bdfe4dc9b59e9fb56f12051fc9f9d7609db336a5a7cce7c26f501baba947f2d8b4b3242ccc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bare-url@2.5.5",
+      "type": "library",
+      "name": "bare-url",
+      "version": "2.5.5",
+      "scope": "required",
+      "author": "Holepunch",
+      "description": "WHATWG URL implementation for JavaScript",
+      "purl": "pkg:npm/bare-url@2.5.5",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bare-url/-/bare-url-2.5.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/holepunchto/bare-url.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/holepunchto/bare-url"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/holepunchto/bare-url/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "88cf6a242aeebe9b76acf68bb2bba6543aeef69a2023b3c7ce21c86bd91335116df02f07b926be908f6415eccaf8dbc71059e7cfbd6b2866751008a5abfdd5fd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "base64-js@1.5.1",
+      "type": "library",
+      "name": "base64-js",
+      "version": "1.5.1",
+      "scope": "optional",
+      "author": "T. Jameson Little <t.jameson.little@gmail.com>",
+      "description": "Base64 encoding/decoding in pure JS",
+      "purl": "pkg:npm/base64-js@1.5.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/beatgammit/base64-js.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/beatgammit/base64-js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/beatgammit/base64-js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "00aa5a6251e7f2de1255b3870b2f9be7e28a82f478bebb03f2f6efadb890269b3b7ca0d3923903af2ea38b4ad42630b49336cd78f2f0cf1abc8b2a68e35a9e58"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "bl@4.1.0",
+      "type": "library",
+      "name": "bl",
+      "version": "4.1.0",
+      "scope": "optional",
+      "description": "Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!",
+      "purl": "pkg:npm/bl@4.1.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/bl/-/bl-4.1.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/rvagg/bl.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/rvagg/bl"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d56d3b70cf604ba0dc2e97ab65f1528fe6d62ed68f1923875a13e21b35e6bd525b44b746f36b07fca9fc12d5b556a595039e0029fda1e64e416e721bc05de1eb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "buffer@5.7.1",
+      "type": "library",
+      "name": "buffer",
+      "version": "5.7.1",
+      "scope": "optional",
+      "author": "Feross Aboukhadijeh",
+      "description": "Node.js Buffer API, for the browser",
+      "purl": "pkg:npm/buffer@5.7.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/buffer.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/feross/buffer"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/buffer/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "10773220f050e0148696f8c1d7a9392a0009dbb088b0763fd8906609145ea38f32f6b43731a533597dca56505ae14eccc97d361dd563d0aec2dd6681de3bbb15"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "chownr@1.1.4",
+      "type": "library",
+      "name": "chownr",
+      "version": "1.1.4",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+      "description": "like `chown -R`",
+      "purl": "pkg:npm/chownr@1.1.4",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/chownr.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8c9d1bab36b296626d567360cd37923acf033dabe96d8804aff6f460bf3fd863b7c4912122716684a3149c42508d9ba62bb297185854cbcf4faec25695a90156"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "commander@6.2.1",
+      "type": "library",
+      "name": "commander",
+      "version": "6.2.1",
+      "scope": "optional",
+      "author": "TJ Holowaychuk <tj@vision-media.ca>",
+      "description": "the complete solution for node.js command-line programs",
+      "purl": "pkg:npm/commander@6.2.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/commander/-/commander-6.2.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tj/commander.js.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "53b55dac9167260a38c63ac7a53ceed32ac73c622676c983f796658184846a3027d892b30e10d33c6f6405379f98e6cbdb0fe781e6678a593e395f421b777b50"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "consola@3.4.2",
+      "type": "library",
+      "name": "consola",
+      "version": "3.4.2",
+      "scope": "required",
+      "description": "Elegant Console Wrapper",
+      "purl": "pkg:npm/consola@3.4.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/consola/-/consola-3.4.2.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e4829c757d279d86af8ba1bb4ed3a1c24633ca37c995ab5b8cc8ee2d27c4da4613e693033a2959e0ebcc862eb7ec27032024e6cf7c0044fa3286ac97d58f97bc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "cross-spawn@7.0.6",
+      "type": "library",
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "scope": "required",
+      "author": "André Cruz <andre@moxy.studio>",
+      "description": "Cross platform child_process#spawn and child_process#spawnSync",
+      "purl": "pkg:npm/cross-spawn@7.0.6",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git@github.com:moxystudio/node-cross-spawn.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/moxystudio/node-cross-spawn"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b95d903963f69d6ceccb668ca7c69189b862f5d9731791e0879487681f4e893184c834e2249cb1d2ecb9d505ddc966ed00736e6b85c9cd429c6b73b3294777bc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "crossws@0.4.15",
+      "type": "library",
+      "name": "crossws",
+      "version": "0.4.15",
+      "scope": "required",
+      "description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+      "purl": "pkg:npm/crossws@0.4.15",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/crossws/-/crossws-0.4.15.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "h3js/crossws"
+        },
+        {
+          "type": "website",
+          "url": "https://crossws.h3.dev"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "36c50ea43668b33ee7c88faa108974e726a25ce59a5c7da84de33e5c15ad892599b5be6bcdc22c9750124ff1f33368f3527efa785bb2ae49fcdc4ea2481454bf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "db0@0.4.1",
+      "type": "library",
+      "name": "db0",
+      "version": "0.4.1",
+      "scope": "required",
+      "description": "Lightweight SQL Connector",
+      "purl": "pkg:npm/db0@0.4.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/db0/-/db0-0.4.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e91058fdb4a7e3652ba804f0b2250b8f6b98172132901dd7780fcd2c855078735795857a0f821dc71dff69aea4e58e390f0cf1eecca078ba2d9ea1d649e51160"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "debug@4.4.3",
+      "type": "library",
+      "name": "debug",
+      "version": "4.4.3",
+      "scope": "optional",
+      "author": "Josh Junon (https://github.com/qix-)",
+      "description": "Lightweight debugging utility for Node.js and the browser",
+      "purl": "pkg:npm/debug@4.4.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/debug-js/debug.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "446c305a7c10be455f6af295b76d8518bc3ec5849dcc04709b4aeee83853540dee994e6165cdbc57790ee2cb6062bcab4e52e9baf808f468a28e5b408cd6dca8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "decompress-response@6.0.0",
+      "type": "library",
+      "name": "decompress-response",
+      "version": "6.0.0",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Decompress a HTTP response if needed",
+      "purl": "pkg:npm/decompress-response@6.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/decompress-response/-/decompress-response-6.0.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "696df9c9933a05bff8a099599dc307d8b0a866d2574d1c444b5eef137868462a305369161da24a1644810e70d1f9c9bd27ef5085799113221fbf4a638bd7a309"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "deep-extend@0.6.0",
+      "type": "library",
+      "name": "deep-extend",
+      "version": "0.6.0",
+      "scope": "optional",
+      "author": "Viacheslav Lotsmanov <lotsmanov89@gmail.com>",
+      "description": "Recursive object extending",
+      "purl": "pkg:npm/deep-extend@0.6.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/unclechu/node-deep-extend.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/unclechu/node-deep-extend"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2ce1f120e68f61d1e5251b4241f0c8559b5fc3fb9f33cfab563eb8f51207cdc9bfbc6c1045716de8e3ea2055ac9b65c432b34812d591eb8b18d4b10a0f6bc038"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "detect-libc@2.1.2",
+      "type": "library",
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "scope": "optional",
+      "author": "Lovell Fuller <npm@lovell.info>",
+      "description": "Node.js module to detect the C standard library (libc) implementation family and version",
+      "purl": "pkg:npm/detect-libc@2.1.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/lovell/detect-libc.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "06d8f604e38ef37a375b21f9f5ef0c817b3111055c6ab9143a9118aee6c1d2eaf09cdd74c90dfae2bb22072535d67665a966199b4e62fe87fb8a8e26ce2841b5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "diff@8.0.4",
+      "type": "library",
+      "name": "diff",
+      "version": "8.0.4",
+      "scope": "optional",
+      "description": "A JavaScript text diff implementation.",
+      "purl": "pkg:npm/diff@8.0.4",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/diff/-/diff-8.0.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/kpdecker/jsdiff.git"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "http://github.com/kpdecker/jsdiff/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0cf8b41668e2494e44bd0574fbe1850ce27d012414545879903f8ecce9d8762ee7dd6a66f6159619f07f3b66e57c770c5532f95a44174a74622bd99a921adc9f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "end-of-stream@1.4.5",
+      "type": "library",
+      "name": "end-of-stream",
+      "version": "1.4.5",
+      "scope": "optional",
+      "author": "Mathias Buus <mathiasbuus@gmail.com>",
+      "description": "Call a callback when a readable/writable/duplex stream has completed or failed.",
+      "purl": "pkg:npm/end-of-stream@1.4.5",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/mafintosh/end-of-stream.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/end-of-stream"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/end-of-stream/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a2810673a1cfdbac57abf37e18218e4f424a08b0c6aead9b41466b43b832ac989900d27ff180d3c53a5005718c9fe59b2105cd569c96ca69bb2985480909f23a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "env-runner@0.2.3",
+      "type": "library",
+      "name": "env-runner",
+      "version": "0.2.3",
+      "scope": "required",
+      "description": "Generic environment runner for JavaScript runtimes.",
+      "purl": "pkg:npm/env-runner@0.2.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/env-runner/-/env-runner-0.2.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "unjs/env-runner"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4bc10504acb39d1c0f5706b22b5f3b7188ef9e9802f76c72faad01205fbe57deb9a5f8cc55545b43f1e84d8180ff5107999ec4ebc93a1deabee169ef56138be7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "eve@0.80.1",
+      "type": "library",
+      "name": "eve",
+      "version": "0.80.1",
+      "scope": "required",
+      "description": "Filesystem-first framework for durable backend AI agents that run anywhere.",
+      "purl": "pkg:npm/eve@0.80.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/eve/-/eve-0.80.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel/eve.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/vercel/eve#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel/eve/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b3cf74bf2e56f42aa8bead9c7886fea1eef32d57253cf89d71eb28f659f5ee58cdc112c613ef76b86cf52bbb5acaf85c5d52bfcf96e3c74b332cd78b47622d3c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "undici@8.10.2",
+      "type": "library",
+      "name": "undici",
+      "version": "8.10.2",
+      "scope": "required",
+      "description": "An HTTP/1.1 client, written from scratch for Node.js",
+      "purl": "pkg:npm/undici@8.10.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/undici/-/undici-8.10.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/nodejs/undici.git"
+        },
+        {
+          "type": "website",
+          "url": "https://undici.nodejs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/undici/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ff2e3f6c7f58354e618bd348ae93aebc65c5731ae3dc232b57efc0629a300184e91e7f205ff5cf163372efae853e8618d2689085d5bdefb24558a18d841770c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "events-universal@1.0.1",
+      "type": "library",
+      "name": "events-universal",
+      "version": "1.0.1",
+      "scope": "required",
+      "author": "Holepunch",
+      "description": "Universal wrapper for the Node.js events module",
+      "purl": "pkg:npm/events-universal@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/events-universal/-/events-universal-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/holepunchto/events-universal.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/holepunchto/events-universal#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/holepunchto/events-universal/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2d47797aebdb30ba70385f26ea2bcf09b85079289854d6fc56cd1f43c4235e8d094e4107a73f29c5d41fd204ad96d68fa70d0271af1bdfd2b1bcaf5c7ca46203"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "eventsource-parser@3.1.1",
+      "type": "library",
+      "name": "eventsource-parser",
+      "version": "3.1.1",
+      "scope": "required",
+      "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+      "description": "Streaming, source-agnostic EventSource/Server-Sent Events parser",
+      "purl": "pkg:npm/eventsource-parser@3.1.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/eventsource-parser/-/eventsource-parser-3.1.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/rexxars/eventsource-parser.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/rexxars/eventsource-parser#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/rexxars/eventsource-parser/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "10a375bca00c719f0c95832968dbb137a47dc9a9331fab9a8c7707553a96273beee695b0f43ca16cfdf91c7f0c54143e7598c07c3c64f80f0d891f4a59a5e2c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "execa@5.1.1",
+      "type": "library",
+      "name": "execa",
+      "version": "5.1.1",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Process execution for humans",
+      "purl": "pkg:npm/execa@5.1.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/execa/-/execa-5.1.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f2e4a9659a1c01944100f20420d263dcba3d1f21a2b6595ccdcdbb121e586288e3305327f321cc0cc6941c4d89a9fab4e43ff0b9cc08e091944725edd6f721ca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "expand-template@2.0.3",
+      "type": "library",
+      "name": "expand-template",
+      "version": "2.0.3",
+      "scope": "optional",
+      "author": "LM <ralphtheninja@riseup.net>",
+      "description": "Expand placeholders in a template string",
+      "purl": "pkg:npm/expand-template@2.0.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/expand-template/-/expand-template-2.0.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/ralphtheninja/expand-template.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/ralphtheninja/expand-template"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5d87ee28cbe3e0edf97ffa4e5cb39b9dd211bf243effee8084e0e1f8e2968fd4bde3df291c79ff20cb331fe82dd1f04245630d7e4d594a9e71dc089f9a7236be"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "(MIT OR WTFPL)"
+        }
+      ]
+    },
+    {
+      "bom-ref": "exsolve@1.1.3",
+      "type": "library",
+      "name": "exsolve",
+      "version": "1.1.3",
+      "scope": "required",
+      "description": "Module resolution utilities based on Node.js upstream implementation.",
+      "purl": "pkg:npm/exsolve@1.1.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/exsolve/-/exsolve-1.1.3.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "92eccbf7385eacb428a83790692e7902288883591be0a617692bac4ed8194cf96f28fda018223cd8b36604d8794630d551721c9a0c7efccc7bbcfc11cc16e124"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "fast-fifo@1.3.2",
+      "type": "library",
+      "name": "fast-fifo",
+      "version": "1.3.2",
+      "scope": "required",
+      "author": "Mathias Buus (@mafintosh)",
+      "description": "A fast fifo implementation similar to the one powering nextTick in Node.js core",
+      "purl": "pkg:npm/fast-fifo@1.3.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mafintosh/fast-fifo.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/fast-fifo"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/fast-fifo/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fddf6c7e8b38cb1ce9c240e4b8dee4d92a852ad60d9824f381f129cfcdb1df820cf7fcdcf0a1b14285e0d6588d0bf8b3a5133f30176de38366c78d595aa93e15"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "fast-xml-builder@1.3.1",
+      "type": "library",
+      "name": "fast-xml-builder",
+      "version": "1.3.1",
+      "scope": "optional",
+      "author": "Amit Gupta (https://solothought.com)",
+      "description": "Build XML from JSON without C/C++ based libraries",
+      "purl": "pkg:npm/fast-xml-builder@1.3.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/fast-xml-builder/-/fast-xml-builder-1.3.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/NaturalIntelligence/fast-xml-builder.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a4833fd67de7b455ca62b519c16ed008ad20016ed763ec338f560c215ded2c3bcf8ff57ecd31892b97b7ff85897f08f4a96c361253578938b175afd1fb7612ba"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "fast-xml-parser@5.11.2",
+      "type": "library",
+      "name": "fast-xml-parser",
+      "version": "5.11.2",
+      "scope": "optional",
+      "author": "Amit Gupta (https://solothought.com)",
+      "description": "Validate XML, Parse XML, Build XML without C/C++ based libraries",
+      "purl": "pkg:npm/fast-xml-parser@5.11.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.11.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/NaturalIntelligence/fast-xml-parser.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "47d883b8dad061e42eb78e9c9f6af6c072a7e07633543bc39b9275c16fa4a197b0ca4bf4cae3b61c285361e66dad42f21c80ccf5c8fd4d45e5a02b2e782414a2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "file-type@21.3.4",
+      "type": "library",
+      "name": "file-type",
+      "version": "21.3.4",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Detect the file type of a file, stream, or data",
+      "purl": "pkg:npm/file-type@21.3.4",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/file-type/-/file-type-21.3.4.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "21ebe2ff2cbc0d2df2806bd3e3b3e349f745a17fb68ac42e7a860fd5c9ed156d492d802e4b8183ecd50f1a0e33bf68997d5e76b83ca4e70e59d13769452e90d6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "fs-constants@1.0.0",
+      "type": "library",
+      "name": "fs-constants",
+      "version": "1.0.0",
+      "scope": "optional",
+      "author": "Mathias Buus (@mafintosh)",
+      "description": "Require constants across node and the browser",
+      "purl": "pkg:npm/fs-constants@1.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mafintosh/fs-constants.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/fs-constants"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/fs-constants/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cba380c284887fb1728cc22ff78bbe6f9add85e6448f347adc64f26499b9aa1e018bed988302c2708fdf3c56642f93d28b13ade9934a9bec3e1dfa7f05c8b0a3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "get-stream@6.0.1",
+      "type": "library",
+      "name": "get-stream",
+      "version": "6.0.1",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Get a stream as a string, buffer, or array",
+      "purl": "pkg:npm/get-stream@6.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b6ce968beda3de3423aa2ef4c3902537c0c59e44b00be32a9b113374400b076a976585775ff6f50937e03cb18934c7805b174f7d4f053b59acdcd51f68708f62"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "github-from-package@0.0.0",
+      "type": "library",
+      "name": "github-from-package",
+      "version": "0.0.0",
+      "scope": "optional",
+      "author": "James Halliday",
+      "description": "return the github url from a package.json file",
+      "purl": "pkg:npm/github-from-package@0.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/github-from-package/-/github-from-package-0.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/github-from-package.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/substack/github-from-package"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4b21f2dd3d6fd8d5179f6f4eb1677198ae91c070febe48f7bfc7a7f00381675c0143f842010e5b0104c3d36916e16f6d529ff7421e89f2bf44be7b62c8298e3b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "guarded-fetch@0.1.3",
+      "type": "library",
+      "name": "guarded-fetch",
+      "version": "0.1.3",
+      "scope": "optional",
+      "author": "Vercel",
+      "description": "SSRF-safe HTTP(S) fetch utilities backed by undici: DNS-rebinding protection, redirect validation, header sanitization, and bounded body reads",
+      "purl": "pkg:npm/guarded-fetch@0.1.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/guarded-fetch/-/guarded-fetch-0.1.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel-labs/guarded-fetch.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3d268dc8993c54995454484c1cf5d3fd9fd680dacb061e3759a610262bb5aafc82b8f400fa480530d9803b1237194dee5eb0a43bfc515b5d578dcb30ae4b1838"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "undici@7.29.1",
+      "type": "library",
+      "name": "undici",
+      "version": "7.29.1",
+      "scope": "optional",
+      "description": "An HTTP/1.1 client, written from scratch for Node.js",
+      "purl": "pkg:npm/undici@7.29.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/undici/-/undici-7.29.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/nodejs/undici.git"
+        },
+        {
+          "type": "website",
+          "url": "https://undici.nodejs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/undici/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "45838d5b631e69f81896454e2982a403f020ec1997aa021609af2dd66d09731ad083da48f6512a46100eaee38109b02884e6bf824085fa23e2f61ae0bd3ceee9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "h3@2.0.5",
+      "type": "library",
+      "name": "h3",
+      "version": "2.0.5",
+      "scope": "required",
+      "description": "Minimal H(TTP) framework built for high performance and portability.",
+      "purl": "pkg:npm/h3@2.0.5",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/h3/-/h3-2.0.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "h3js/h3"
+        },
+        {
+          "type": "website",
+          "url": "https://h3.dev"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0244d868af1785694000e873133f08e850248453ccac3615abf3c85771af271b4a885995c950c001d1ae3463131d1ac8dc0eaea77b356cd0ff7433e5407971eb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "rou3@1.0.0",
+      "type": "library",
+      "name": "rou3",
+      "version": "1.0.0",
+      "scope": "required",
+      "description": "Lightweight and fast router for JavaScript.",
+      "purl": "pkg:npm/rou3@1.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/rou3/-/rou3-1.0.0.tgz"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/h3js/rou3#readme"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c9279a4244abb9afaeb7d83eeb923b147a8e141698f2d57416671c5c8b68ab4ab6d6c7b7d90deee18896eff46a5d2a2c5a060969a2b04475f2dc1493f4f78235"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "hookable@6.1.2",
+      "type": "library",
+      "name": "hookable",
+      "version": "6.1.2",
+      "scope": "required",
+      "description": "Awaitable hook system",
+      "purl": "pkg:npm/hookable@6.1.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/hookable/-/hookable-6.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "unjs/hookable"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f9a6f0c6d884039d8609522c42abaddd2fee2936d4c18229e0f7bfbeffbaa72e57897042a8c64783aa40e98e6a8602d2132b34fdc62e3db3b4cf54058f96429a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "httpxy@0.5.5",
+      "type": "library",
+      "name": "httpxy",
+      "version": "0.5.5",
+      "scope": "required",
+      "description": "A full-featured HTTP proxy for Node.js.",
+      "purl": "pkg:npm/httpxy@0.5.5",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/httpxy/-/httpxy-0.5.5.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b838e69cfca9d6ae128337f7c3e27f15ce94a9c0848f4c785a3a7b3aa2b974684d783829cab0269d2e9ecbc416ad7dd2583a27d8330a7fdb016b95fdf8257230"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "human-signals@2.1.0",
+      "type": "library",
+      "name": "human-signals",
+      "version": "2.1.0",
+      "scope": "required",
+      "author": "ehmicky <ehmicky@gmail.com> (https://github.com/ehmicky)",
+      "description": "Human-friendly process signals",
+      "purl": "pkg:npm/human-signals@2.1.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz"
+        },
+        {
+          "type": "website",
+          "url": "https://git.io/JeluP"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ehmicky/human-signals/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "07814567aabf4f68e1864b2091b116dc706f5887c35bce6c9e44206b0b74ed2ec9e505d393a064355fb4c80799acce50a4c01d625a1c1a89639f4b09fd642417"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ieee754@1.2.1",
+      "type": "library",
+      "name": "ieee754",
+      "version": "1.2.1",
+      "scope": "optional",
+      "author": "Feross Aboukhadijeh",
+      "description": "Read/write IEEE754 floating point numbers from/to a Buffer or array-like object",
+      "purl": "pkg:npm/ieee754@1.2.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/ieee754.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "75ccaa843bd7d42e3a95765c56a0a92be16d31141574830debf0dfe63b36ce8b94b2a1bb23ab05c62b480beeca60adbd29d5ce2c776ef732f8b059e85509ea68"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "inherits@2.0.4",
+      "type": "library",
+      "name": "inherits",
+      "version": "2.0.4",
+      "scope": "optional",
+      "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "purl": "pkg:npm/inherits@2.0.4",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "93fbc6697e3f6256b75b3c8c0af4d039761e207bea38ab67a8176ecd31e9ce9419cc0b2428c859d8af849c189233dcc64a820578ca572b16b8758799210a9ec1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ini@6.0.0",
+      "type": "library",
+      "name": "ini",
+      "version": "6.0.0",
+      "scope": "optional",
+      "author": "GitHub Inc.",
+      "description": "An ini encoder/decoder for node",
+      "purl": "pkg:npm/ini@6.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ini/-/ini-6.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/ini.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2014dd224cd934ea6a9bbab7751a89bcc6a57578c31d69040dfaf0184413b3979a40c595f9d8c0851fb06a1c8d34c01afaaa5b0d4841315b7864a370a4f9bbc5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ipaddr.js@2.2.0",
+      "type": "library",
+      "name": "ipaddr.js",
+      "version": "2.2.0",
+      "scope": "optional",
+      "author": "whitequark <whitequark@whitequark.org>",
+      "description": "A library for manipulating IPv4 and IPv6 addresses in JavaScript.",
+      "purl": "pkg:npm/ipaddr.js@2.2.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-2.2.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "020df0076a37ef0b25652d7d859aa8ad49eb9f34a4a4e572f888a20c4893a8db9b118a58b875887fa2b8a6c80dd9958a1314b8c61542ad155f6ffc1f5bc7d624"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "is-stream@2.0.1",
+      "type": "library",
+      "name": "is-stream",
+      "version": "2.0.1",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Check if something is a Node.js stream",
+      "purl": "pkg:npm/is-stream@2.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "845a222624e5eb79e7fa4b2d1c606d7b05922a740ba726f5e7928785e035977f6ebed3bd9d6228a75a77b9da8f71477fc5b17554b30ee27ece23aa7b45b9e00e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "is-unsafe@2.0.2",
+      "type": "library",
+      "name": "is-unsafe",
+      "version": "2.0.2",
+      "scope": "optional",
+      "author": "Amit Gupta (https://solothought.com/)",
+      "description": "Zero-dependency, DOM-free, pure predicate for detecting unsafe strings across HTML, XML, SVG, SQL, SHELL, and REGEX contexts",
+      "purl": "pkg:npm/is-unsafe@2.0.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/is-unsafe/-/is-unsafe-2.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/NaturalIntelligence/is-unsafe"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1e06c81cf047d0a1c709c8cb7c6b02be1b4f4d5c636806655e3c1dcfbfc6402e344a349ee2c7d0b1aafc279545a3c24e49b6ab92957438b1bde5b6da35df5a01"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "isexe@2.0.0",
+      "type": "library",
+      "name": "isexe",
+      "version": "2.0.0",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+      "description": "Minimal module to check if a file is executable.",
+      "purl": "pkg:npm/isexe@2.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/isaacs/isexe.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/isexe#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/isexe/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "447c4c2e9f659ca1c61d19e0f5016144231b600715a67ebdb2648672addfdfac638155564e18f8aaa2db4cb96aed2b23f01f9f210d44b8210623694ab3241e23"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "jose@5.10.0",
+      "type": "library",
+      "name": "jose",
+      "version": "5.10.0",
+      "scope": "required",
+      "author": "Filip Skokan <panva.ip@gmail.com>",
+      "description": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes",
+      "purl": "pkg:npm/jose@5.10.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/jose/-/jose-5.10.0.tgz"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/panva/jose"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b3edc097fa7d837d88abea2a5f1916fffee393656283a145d4216acd55e84d45eddaacfcf5859b2fe3b04b5ecd15812fc42df99f414a7863b62c6612c5e3361a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "json-schema@0.4.0",
+      "type": "library",
+      "name": "json-schema",
+      "version": "0.4.0",
+      "scope": "required",
+      "author": "Kris Zyp",
+      "description": "JSON Schema validation and specifications",
+      "purl": "pkg:npm/json-schema@0.4.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/json-schema/-/json-schema-0.4.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/kriszyp/json-schema"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7acf783379d321fb043e2b1169f6a4f870cb7c75e7281855def5397aa3dc4b77e5216a9cc495a05c75e27b2dd8ae968db1a9d8e5e8b55686046cece28eeabd04"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "(AFL-2.1 OR BSD-3-Clause)"
+        }
+      ]
+    },
+    {
+      "bom-ref": "just-bash@3.6.0",
+      "type": "library",
+      "name": "just-bash",
+      "version": "3.6.0",
+      "scope": "optional",
+      "author": "Malte and Claude",
+      "description": "A simulated bash environment with virtual filesystem",
+      "purl": "pkg:npm/just-bash@3.6.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/just-bash/-/just-bash-3.6.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel-labs/just-bash.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/vercel-labs/just-bash#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel-labs/just-bash/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d823a312070776a2977904a235f3c01e6a70431e12f30013688c2883cde0dadeb8e54e6da26e85103e0204176bdccfb48a85f8c59dba78e0f0dff9c3e9143ac7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "run@2.1.3",
+      "type": "library",
+      "name": "run",
+      "version": "2.1.3",
+      "scope": "optional",
+      "description": "Secure QuickJS-backed JavaScript runtime with host functions and continuations",
+      "purl": "pkg:npm/run@2.1.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/run/-/run-2.1.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vercel-labs/run.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/vercel-labs/run/tree/main/packages/run#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vercel-labs/run/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "294bab5b4e73823b59dacbb47015110b5ab6446fd4ab4bb3577a94443b17aa22a1d37a7d21700140ae107a6e7a70532a8d3f13750da24d6b1e3eb329ad058844"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "typescript@5.9.3",
+      "type": "library",
+      "name": "typescript",
+      "version": "5.9.3",
+      "scope": "optional",
+      "author": "Microsoft Corp.",
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "purl": "pkg:npm/typescript@5.9.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/microsoft/TypeScript.git"
+        },
+        {
+          "type": "website",
+          "url": "https://www.typescriptlang.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/microsoft/TypeScript/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8e5d6f6733c38a72ebf5e52ddc9feded5e8580d130f508ef04f772b33f4a7d00c3e357d0ac2d98e2f290762694a454f86d795bd511e12e9a7cc2d9ba3394e04b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "merge-stream@2.0.0",
+      "type": "library",
+      "name": "merge-stream",
+      "version": "2.0.0",
+      "scope": "required",
+      "author": "Stephen Sugden <me@stephensugden.com>",
+      "description": "Create a stream that emits events from multiple other streams",
+      "purl": "pkg:npm/merge-stream@2.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "69bbffa8e72e3df9375113df0f39995352ca9aec3c913fb49c81ef2ab2a016bc227e897f76859c740e19aac590f0436b14a91debb31fa68fcba2f6c852c6eddf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mimic-fn@2.1.0",
+      "type": "library",
+      "name": "mimic-fn",
+      "version": "2.1.0",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Make a function mimic another one",
+      "purl": "pkg:npm/mimic-fn@2.1.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3aa6ce939a0441e019f165d6c9d96ef47263cfd59574422f6a63027179aea946234e49c7fecaac5af850def830285451d47a63bcd04a437ee76c9818cc6a8672"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mimic-response@3.1.0",
+      "type": "library",
+      "name": "mimic-response",
+      "version": "3.1.0",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Mimic a Node.js HTTP response stream",
+      "purl": "pkg:npm/mimic-response@3.1.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cf4c9623ee050ebaf0792f199ade048f91dd266932d79f8bd9ee96827dfe88ae5f5b36fa4f77e1345ab6f8c79345bd3ae1ce96af837fc2fd03cd04e33731cd19"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "minimist@1.2.8",
+      "type": "library",
+      "name": "minimist",
+      "version": "1.2.8",
+      "scope": "optional",
+      "author": "James Halliday",
+      "description": "parse argument options",
+      "purl": "pkg:npm/minimist@1.2.8",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/minimistjs/minimist.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/minimistjs/minimist"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "db2c8047ca8190ddd8ba17896a7529582e54ddb6f9a2c0f2c0d07c4730d5943c031dba1c009bdeaaa8f5bbcf92543ee39164f8cafb070a95aaa96a80c5bd3308"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "mkdirp-classic@0.5.3",
+      "type": "library",
+      "name": "mkdirp-classic",
+      "version": "0.5.3",
+      "scope": "optional",
+      "author": "Mathias Buus (@mafintosh)",
+      "description": "Mirror of mkdirp 0.5.2",
+      "purl": "pkg:npm/mkdirp-classic@0.5.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mafintosh/mkdirp-classic.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/mkdirp-classic"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/mkdirp-classic/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "80a2dc444321b6e651c1101fa8fdd1156f932b826a029541b4e21fb55823b8006902da7184f19a0dc7ef6e136f0f407c883d6852bfedc57df936371a63a36cfc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "modern-tar@0.7.7",
+      "type": "library",
+      "name": "modern-tar",
+      "version": "0.7.7",
+      "scope": "optional",
+      "author": "Ayuhito <hello@ayuhito.com>",
+      "description": "Zero dependency streaming tar parser and writer for JavaScript.",
+      "purl": "pkg:npm/modern-tar@0.7.7",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/modern-tar/-/modern-tar-0.7.7.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/ayuhito/modern-tar.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/ayuhito/modern-tar"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ayuhito/modern-tar/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b7d566c5aaab98036710e061a520c8e870f5f7619ee3c93cbe65aa4102fb852144a87118c196dbb2ee3df9a28b599791bc5b378f5a4c8573aaa85e243e5be391"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ms@2.1.3",
+      "type": "library",
+      "name": "ms",
+      "version": "2.1.3",
+      "scope": "optional",
+      "description": "Tiny millisecond conversion utility",
+      "purl": "pkg:npm/ms@2.1.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e85973b9b4cb646dc9d9afcd542025784863ceae68c601f268253dc985ef70bb2fa1568726afece715c8ebf5d73fab73ed1f7100eb479d23bfb57b45dd645394"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "napi-build-utils@2.0.0",
+      "type": "library",
+      "name": "napi-build-utils",
+      "version": "2.0.0",
+      "scope": "optional",
+      "author": "Jim Schlight",
+      "description": "A set of utilities to assist developers of tools that build N-API native add-ons",
+      "purl": "pkg:npm/napi-build-utils@2.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-2.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/inspiredware/napi-build-utils.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/inspiredware/napi-build-utils#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/inspiredware/napi-build-utils/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1846eb6246df17b32835aa21da2186f383277ff5997c1d0674612c33cc33ec4c69c7f2e559fe54f2df67bc92974a9deaaf922c11b2b4e1c04686897f2b03ac58"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "nf3@0.3.24",
+      "type": "library",
+      "name": "nf3",
+      "version": "0.3.24",
+      "scope": "required",
+      "purl": "pkg:npm/nf3@0.3.24",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/nf3/-/nf3-0.3.24.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1f12cae1ba3ee6336c1044d9a78c37b496e51ce03d302058d7820df67649255f090f1b7dc8d218c6e06e2cc8d3011e4615adc72fad7ef1540352b5efdff0bc7f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "nitro@3.0.260903-beta",
+      "type": "library",
+      "name": "nitro",
+      "version": "3.0.260903-beta",
+      "scope": "required",
+      "description": "Build and Deploy Universal JavaScript Servers",
+      "purl": "pkg:npm/nitro@3.0.260903-beta",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/nitro/-/nitro-3.0.260903-beta.tgz"
+        },
+        {
+          "type": "website",
+          "url": "https://nitro.build"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e7880034f8bad8ef2b7ccbdea6225456e2331088a761fa5e1db79bcb094bc6f5538086170f04afa5a53d21dfb4b093818c1c74c02d7f0956172641fb498fa5d2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "node-abi@3.99.0",
+      "type": "library",
+      "name": "node-abi",
+      "version": "3.99.0",
+      "scope": "optional",
+      "author": "Lukas Geiger",
+      "description": "Get the Node ABI for a given target and runtime, and vice versa.",
+      "purl": "pkg:npm/node-abi@3.99.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/node-abi/-/node-abi-3.99.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/electron/node-abi.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/electron/node-abi#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/electron/node-abi/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "94b77091e8365d454f4c7a968cf96d4f11fcd736d035b5160be0046fd9e2e742a3c64533000c751c6b4c4f6d6c6e7b737d419f22986172496fb378a625ea835f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "node-addon-api@8.9.2",
+      "type": "library",
+      "name": "node-addon-api",
+      "version": "8.9.2",
+      "scope": "optional",
+      "description": "Node.js API (Node-API)",
+      "purl": "pkg:npm/node-addon-api@8.9.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.9.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/nodejs/node-addon-api.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/nodejs/node-addon-api"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/node-addon-api/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5628cb5db8b750008debd2342555c9b17e2d8c00a336840382fda04c5eacc76c16122f2d912836797f29e60488162f33dbe0cbde81e663a3b229c7b7f120e896"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "npm-run-path@4.0.1",
+      "type": "library",
+      "name": "npm-run-path",
+      "version": "4.0.1",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Get your PATH prepended with locally installed binaries",
+      "purl": "pkg:npm/npm-run-path@4.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/npm-run-path/-/npm-run-path-4.0.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4b8f16cd95bbefbce1348ae7ee0c4e94848d02a8bd642fee4059d175b7881e1661080e94aa990e4fc4f51bb06f7dd80fe04afc805e2c51b692d22ed0bc87c25b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "ocache@0.3.0",
+      "type": "library",
+      "name": "ocache",
+      "version": "0.3.0",
+      "scope": "required",
+      "description": "Composable caching primitives with TTL, SWR, and HTTP response caching",
+      "purl": "pkg:npm/ocache@0.3.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ocache/-/ocache-0.3.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "452ffd3f4cde05bd200c999a7461112c7f2564d5caef16ee7d30e17259171af1464ec8f41b8339fdc2e4fa68b3704447dbd98b5cd9e871f079c2370aef4c0626"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "once@1.4.0",
+      "type": "library",
+      "name": "once",
+      "version": "1.4.0",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+      "description": "Run a function exactly one time",
+      "purl": "pkg:npm/once@1.4.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/once/-/once-1.4.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/once"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "94d689808fb643951140191c7042874d038f697754c67659125413658d0c15402e684a9ed44f8dcaf81dcff688c8d8ba67d3333b976fd47f27e7cfc610ba77fb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "onetime@5.1.2",
+      "type": "library",
+      "name": "onetime",
+      "version": "5.1.2",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Ensure a function is only called once",
+      "purl": "pkg:npm/onetime@5.1.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "91ba5a4921894d674063928f55e30e2974ab3edafc0bc0bbc287496dcb1de758d19e60fe199bbc63456853a0e6e59e2f5abd0883fd4d2ae59129fee3e5a6984a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "os-paths@4.4.0",
+      "type": "library",
+      "name": "os-paths",
+      "version": "4.4.0",
+      "scope": "required",
+      "author": "Roy Ivy III",
+      "description": "Generate portable common OS paths (home, temp, ...)",
+      "purl": "pkg:npm/os-paths@4.4.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/os-paths/-/os-paths-4.4.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c2b03039e5e9d5144c15f418f12cbb55a19598fa1c68bc1214e60218a4b2a3caa627eff269a7c2979042035210656a8549106b283605791f5dfd5c90cdf1ff8e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "papaparse@5.7.0",
+      "type": "library",
+      "name": "papaparse",
+      "version": "5.7.0",
+      "scope": "optional",
+      "author": "Matthew Holt",
+      "description": "Fast and powerful CSV parser for the browser that supports web workers and streaming large files. Converts CSV to JSON and JSON to CSV.",
+      "purl": "pkg:npm/papaparse@5.7.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/papaparse/-/papaparse-5.7.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mholt/PapaParse.git"
+        },
+        {
+          "type": "website",
+          "url": "https://www.papaparse.com/"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a811b183fed0dca97d59f86bcf667be149ef9c74d72cd1ba8e628915e06f3f6fb2e2557b4a8fbb491eb6f99778ec9bddac2917fa70dc9ebd0e6cfcde93ffba44"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "path-expression-matcher@1.6.2",
+      "type": "library",
+      "name": "path-expression-matcher",
+      "version": "1.6.2",
+      "scope": "optional",
+      "author": "Amit Gupta (https://solothought.com)",
+      "description": "Efficient path tracking and pattern matching for XML/JSON parsers",
+      "purl": "pkg:npm/path-expression-matcher@1.6.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/path-expression-matcher/-/path-expression-matcher-1.6.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/NaturalIntelligence/path-expression-matcher"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/NaturalIntelligence/path-expression-matcher#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/NaturalIntelligence/path-expression-matcher/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7a74a56a26add3989ab27ce680dc518fcade15d8f7a6e6364293603f568f21a55f4fa9e7f480ae3e816528793c10ddb61dcc1ec2c84efa63760c66e40843ada9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "path-key@3.1.1",
+      "type": "library",
+      "name": "path-key",
+      "version": "3.1.1",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Get the PATH environment variable key cross-platform",
+      "purl": "pkg:npm/path-key@3.1.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a2399e374a9dfb2d23b3312da18e3caf43deab97703049089423aee90e5fe3595f92cc17b8ab58ae18284e92e7c887079b6e1486ac7ee53aa6d889d2c0b844e9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pathe@2.0.3",
+      "type": "library",
+      "name": "pathe",
+      "version": "2.0.3",
+      "scope": "required",
+      "description": "Universal filesystem path utils",
+      "purl": "pkg:npm/pathe@2.0.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5948c6700a8fd6041a72841ef8e049b0503b2dde03c97b9422367971cef970b1ef27b76d36c4ee8298712000f0b294be02b68051e3c22ab495b4f2c58ff17cf3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "prebuild-install@7.1.3",
+      "type": "library",
+      "name": "prebuild-install",
+      "version": "7.1.3",
+      "scope": "optional",
+      "author": "Mathias Buus (@mafintosh)",
+      "description": "A command line tool to easily install prebuilt binaries for multiple version of node/iojs on a specific platform",
+      "purl": "pkg:npm/prebuild-install@7.1.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.1.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/prebuild/prebuild-install.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/prebuild/prebuild-install"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/prebuild/prebuild-install/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f0c7f671b57bc757173d420b003188df0ba17ea5afb622c0d627254c36c54599204504b436ab0f6698676bd57e1f24c469d85eb8f9a368932c6f329014eccbba"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "pump@3.0.4",
+      "type": "library",
+      "name": "pump",
+      "version": "3.0.4",
+      "scope": "optional",
+      "author": "Mathias Buus Madsen <mathiasbuus@gmail.com>",
+      "description": "pipe streams together and close all of them if one of them closes",
+      "purl": "pkg:npm/pump@3.0.4",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/pump/-/pump-3.0.4.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "552eec8dce8a47b7b5ba4445850498e4b336b8158050f88e3dafc0de690a9a23304a64455084edd31ba3fbf95eb209c2bfe74f204625933adcc9782ab881cc70"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "rc@1.2.8",
+      "type": "library",
+      "name": "rc",
+      "version": "1.2.8",
+      "scope": "optional",
+      "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+      "description": "hardwired configuration loader",
+      "purl": "pkg:npm/rc@1.2.8",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/rc/-/rc-1.2.8.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/dominictarr/rc.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cb76c682a2a3dd005dc4b6cb9289a5a2192fb00f207408944254812670617e7f813f18386dceb677c4dc056d79c1abc37e07b10a071c72485c66fcb0c9060f3b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "(BSD-2-Clause OR MIT OR Apache-2.0)"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ini@1.3.8",
+      "type": "library",
+      "name": "ini",
+      "version": "1.3.8",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+      "description": "An ini encoder/decoder for node",
+      "purl": "pkg:npm/ini@1.3.8",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/ini.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "255ff2ba0576bb35b988c4528990320ed41dfa7c6d5278de2edd1a70d770f7c90a2ebbee455c81f34b6c444384ef2bc65606a5859e913570a61079142812b17b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "re2js@1.3.3",
+      "type": "library",
+      "name": "re2js",
+      "version": "1.3.3",
+      "scope": "optional",
+      "author": "Alexey Vasiliev",
+      "description": "RE2JS is the JavaScript port of RE2, a regular expression engine that provides linear time matching",
+      "purl": "pkg:npm/re2js@1.3.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/re2js/-/re2js-1.3.3.tgz"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/le0pard/re2js#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/le0pard/re2js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b3f239cc4028efd4942b4430e1da592a988cc1b43a1b3d0a536351afb79a3b8c7fa7683b56f9a7de175e5c383c56c6948df8ffa2b6be7bda22dbb2d7fc2f7e9b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "readable-stream@3.6.2",
+      "type": "library",
+      "name": "readable-stream",
+      "version": "3.6.2",
+      "scope": "optional",
+      "description": "Streams3, a user-land copy of the stream library from Node.js",
+      "purl": "pkg:npm/readable-stream@3.6.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/nodejs/readable-stream"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f6efec9e20ab6370f959db04447cc71381b66025eaa06e454c7522082e1221bafa5dc2d9058d39c9af442a361e93d3b9c4e0308c6abed497460404bb43d49ca0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "rolldown@1.2.14",
+      "type": "library",
+      "name": "rolldown",
+      "version": "1.2.14",
+      "scope": "required",
+      "description": "Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API.",
+      "purl": "pkg:npm/rolldown@1.2.14",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.14.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/rolldown/rolldown.git"
+        },
+        {
+          "type": "website",
+          "url": "https://rolldown.rs/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/rolldown/rolldown/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7930534ea311eae1ca2e0714aa924ff27b730c8e95e0b600f277a000c04423b824815bce76bc7a56cbd2d989bef372a138f74b087589bb4c3b5101496611ca37"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "rou3@0.9.2",
+      "type": "library",
+      "name": "rou3",
+      "version": "0.9.2",
+      "scope": "required",
+      "description": "Lightweight and fast router for JavaScript.",
+      "purl": "pkg:npm/rou3@0.9.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/rou3/-/rou3-0.9.2.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dd23b3bda020f2b907ad7b518e90af0af6f23b9b68f6838edbb67f5ea1c46177cc4554b0fea30855d99a3a4f56da57112ed47a765a938e8f610de264ef440161"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "safe-buffer@5.2.1",
+      "type": "library",
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "scope": "optional",
+      "author": "Feross Aboukhadijeh",
+      "description": "Safer Node.js Buffer API",
+      "purl": "pkg:npm/safe-buffer@5.2.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/safe-buffer.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/feross/safe-buffer"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/safe-buffer/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ae9dd2a34eca71d9a629b1af81a37141226bedb1954959394bd12ad45fa9a5b468ef4f9879a0f1930e4377c34f37e183e9b8e7626d95b8fb825e6a6e62f9825d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "seek-bzip@2.0.0",
+      "type": "library",
+      "name": "seek-bzip",
+      "version": "2.0.0",
+      "scope": "optional",
+      "description": "a pure-JavaScript Node.JS module for random-access decoding bzip2 data",
+      "purl": "pkg:npm/seek-bzip@2.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/seek-bzip/-/seek-bzip-2.0.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/cscott/seek-bzip.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "48c82e8939d8ae1a4b764dcfc1fcc77a8b6b7308bc6cd57889e98bf6dc7da6847fc9e68c63007d573475c3b6f9ec3b96a6ea91f27ea865ba22d218f703167142"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "semver@7.8.5",
+      "type": "library",
+      "name": "semver",
+      "version": "7.8.5",
+      "scope": "optional",
+      "author": "GitHub Inc.",
+      "description": "The semantic version parser used by npm.",
+      "purl": "pkg:npm/semver@7.8.5",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/semver/-/semver-7.8.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/node-semver.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "63bfca0ec6fc2e3a28669c1aa86cae94ee8342592c8029dc7211c693eb19218e1206f52870c044147e54af57c8e1d57e26f974c3a723bee71a222e34a6e462a0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "shebang-command@2.0.0",
+      "type": "library",
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "scope": "required",
+      "author": "Kevin Mårtensson",
+      "description": "Get the command from a shebang",
+      "purl": "pkg:npm/shebang-command@2.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "907c6bdb366962d766acdd6a0e3aeb5ff675ad1d641bc0f1fa09292b51b87979af5ecc26704d614d6056614ce5ada630d7fc99a7a62e0d8efb62dbdb3747660c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "shebang-regex@3.0.0",
+      "type": "library",
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Regular expression for matching a shebang line",
+      "purl": "pkg:npm/shebang-regex@3.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "efef9d161b5cc77df9dee05aabc0c347836ec417ad0730bb6503a19934089c711de9b4ab5dd884cb30af1b4ed9e3851874b4a1594c97b7933fca1cfc7a471bd4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "signal-exit@3.0.7",
+      "type": "library",
+      "name": "signal-exit",
+      "version": "3.0.7",
+      "scope": "required",
+      "author": "Ben Coe <ben@npmjs.com>",
+      "description": "when you want to fire an event no matter how a process exits.",
+      "purl": "pkg:npm/signal-exit@3.0.7",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tapjs/signal-exit.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tapjs/signal-exit"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/tapjs/signal-exit/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c270f6644fa5f923c2feea12d2f5de13d2f5fb4c2e68ca8a95fcfd00c528dfc26cc8b48159215c1d1d51ae2eb62d9735daf2ebd606f78e5ee2c10860c2901b19"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "simple-concat@1.0.1",
+      "type": "library",
+      "name": "simple-concat",
+      "version": "1.0.1",
+      "scope": "optional",
+      "author": "Feross Aboukhadijeh",
+      "description": "Super-minimalist version of `concat-stream`. Less than 15 lines!",
+      "purl": "pkg:npm/simple-concat@1.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/simple-concat.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/feross/simple-concat"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/simple-concat/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "71216d00fb518658efebd20ad214d5650f8e7c4f6778f8bfaed266c395231de57256ba04a895cfd6c173b4a532d6a53ec6fcf7bbfb1f6092daf78edbee700dd9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "simple-get@4.0.1",
+      "type": "library",
+      "name": "simple-get",
+      "version": "4.0.1",
+      "scope": "optional",
+      "author": "Feross Aboukhadijeh",
+      "description": "Simplest way to make http get requests. Supports HTTPS, redirects, gzip/deflate, streams in < 100 lines.",
+      "purl": "pkg:npm/simple-get@4.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/simple-get/-/simple-get-4.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/simple-get.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/feross/simple-get"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/simple-get/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6ebbfba795a01f48e6409af56430df2833927965a0f8e572a46f7d03fe6f6063ea27aa7189a1cbcbc9f1b458c103ba0c6b4d5e6c0f607e1d6e30216a3ae5f1bc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "smol-toml@1.9.1",
+      "type": "library",
+      "name": "smol-toml",
+      "version": "1.9.1",
+      "scope": "optional",
+      "author": "Cynthia Rey <cynthia@cynthia.dev>",
+      "description": "A small, fast, and correct TOML parser/serializer",
+      "purl": "pkg:npm/smol-toml@1.9.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/smol-toml/-/smol-toml-1.9.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "github:squirrelchat/smol-toml"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8fb5b23dd7f4089a2eb4cccca0f2c5fdb5571ed299213f516f87867846d6c3c5f6b79a22ae33e0a4bf8ea5a10d66b20b61a5ea6309d51feaa053055b97ea5425"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "sprintf-js@1.1.3",
+      "type": "library",
+      "name": "sprintf-js",
+      "version": "1.1.3",
+      "scope": "optional",
+      "author": "Alexandru Mărășteanu <hello@alexei.ro>",
+      "description": "JavaScript sprintf implementation",
+      "purl": "pkg:npm/sprintf-js@1.1.3",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.1.3.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/alexei/sprintf.js.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3a8fb4444155e7dfebcf781f24d2908819707c7692112975a5c1b200142c9e721f58e16de89363e600a883653a30b67ffc81980fe9c0f2723e9934a144445e68"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "sql.js@1.15.0",
+      "type": "library",
+      "name": "sql.js",
+      "version": "1.15.0",
+      "scope": "optional",
+      "description": "SQLite library with support for opening and writing databases, prepared statements, and more. Compiled to WebAssembly with Emscripten, with JavaScript bindings.",
+      "purl": "pkg:npm/sql.js@1.15.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/sql.js/-/sql.js-1.15.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/sql-js/sql.js.git"
+        },
+        {
+          "type": "website",
+          "url": "http://github.com/sql-js/sql.js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sql-js/sql.js/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e78553e61f7f54694b6906a7e695ff671f24e956f293097985152d978878f95627699093ada52ce0fd62d962f3db53baa0f569e86be0f9dd4ec8fa34d591b98a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "srvx@1.0.6",
+      "type": "library",
+      "name": "srvx",
+      "version": "1.0.6",
+      "scope": "required",
+      "description": "Universal Server.",
+      "purl": "pkg:npm/srvx@1.0.6",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/srvx/-/srvx-1.0.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "h3js/srvx"
+        },
+        {
+          "type": "website",
+          "url": "https://srvx.h3.dev"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "41e4ca800864f0e4ac7deabad1b977c2e56cf4f9817edce693ba300489c0fc5d584277be4d1c3451c3f298da544657409b1f217e63363cd3461ffce0a371a92c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "streamx@2.28.1",
+      "type": "library",
+      "name": "streamx",
+      "version": "2.28.1",
+      "scope": "required",
+      "author": "Mathias Buus (@mafintosh)",
+      "description": "An iteration of the Node.js core streams with a series of improvements",
+      "purl": "pkg:npm/streamx@2.28.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/streamx/-/streamx-2.28.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mafintosh/streamx.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/streamx"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/streamx/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cc4cd76f4b3909db3bb6a307eab859d3995c2727425a240f13088d9e056acecc4273deb6bcb638530fa65bba1df240c7db9f24d94cff26b3a474800085287d54"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "string_decoder@1.3.0",
+      "type": "library",
+      "name": "string_decoder",
+      "version": "1.3.0",
+      "scope": "optional",
+      "description": "The string_decoder module from Node core",
+      "purl": "pkg:npm/string_decoder@1.3.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/nodejs/string_decoder.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/nodejs/string_decoder"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "864457f14d568c915df0bb03276c90ff0596c5aa2912c0015355df90cf00fa3d3ef392401a9a6dd7a72bd56860e8a21b6f8a2453a32a97a04e8febaea7fc0a78"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "strip-final-newline@2.0.0",
+      "type": "library",
+      "name": "strip-final-newline",
+      "version": "2.0.0",
+      "scope": "required",
+      "author": "Sindre Sorhus",
+      "description": "Strip the final newline character from a string/buffer",
+      "purl": "pkg:npm/strip-final-newline@2.0.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "06ba6f7cd004ddd72fabb965df156e9b38ca8d9439b48d6c11420aaf752892cd17525e394addc595ab55a9e7fda6b9388d10f3856e96660fb76e4f77cbaa4b8c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "strip-json-comments@2.0.1",
+      "type": "library",
+      "name": "strip-json-comments",
+      "version": "2.0.1",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Strip comments from JSON. Lets you use comments in your JSON files!",
+      "purl": "pkg:npm/strip-json-comments@2.0.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e2007c9dad3b7de715564388e91b387bb4fa34e4e48b91262fb4d476e4ece9bbb711d9d2c9c9ed549e2b7bc920640fb0c7d22e788d98d756df6e0c2dcee13429"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "strnum@2.5.1",
+      "type": "library",
+      "name": "strnum",
+      "version": "2.5.1",
+      "scope": "optional",
+      "author": "Amit Gupta (https://solothought.work/)",
+      "description": "Parse String to Number based on configuration",
+      "purl": "pkg:npm/strnum@2.5.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/strnum/-/strnum-2.5.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/NaturalIntelligence/strnum"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "50ce274cb5b34220c1b1e571506c4dd30273224d1453cf508bba4a5f3f6a212a3e961be2262913ba2901b0afe8151969bd81ef49dcf44d5a0bc90fac129630c4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "strtok3@10.6.2",
+      "type": "library",
+      "name": "strtok3",
+      "version": "10.6.2",
+      "scope": "optional",
+      "author": "Borewit",
+      "description": "A promise based streaming tokenizer",
+      "purl": "pkg:npm/strtok3@10.6.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/strtok3/-/strtok3-10.6.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Borewit/strtok3.git"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Borewit/strtok3/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "064762c45154b7bafb2ec5fa68634f57260c2e35be3355122e528f35b66cad91262c5879b46aa175f7242a8eb182c64826a7430f40991a4782249c0d59020a40"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "tar-fs@2.1.5",
+      "type": "library",
+      "name": "tar-fs",
+      "version": "2.1.5",
+      "scope": "optional",
+      "author": "Mathias Buus",
+      "description": "filesystem bindings for tar-stream",
+      "purl": "pkg:npm/tar-fs@2.1.5",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.5.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mafintosh/tar-fs.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/tar-fs"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/tar-fs/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "39ba1377c9a632164334f57e52341c2bdc8a01ab57bb6689fabd70e229b53ad7783387e5da1c2f7685d4c486071531d62bfdf2dc56ab04fef4bf7bf098694ec7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "tar-stream@2.2.0",
+      "type": "library",
+      "name": "tar-stream",
+      "version": "2.2.0",
+      "scope": "optional",
+      "author": "Mathias Buus <mathiasbuus@gmail.com>",
+      "description": "tar-stream is a streaming tar parser and generator and nothing else. It is streams2 and operates purely using streams which means you can easily extract/parse tarballs without ever hitting the file system.",
+      "purl": "pkg:npm/tar-stream@2.2.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mafintosh/tar-stream.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/tar-stream"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/tar-stream/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ba37aa6dc780060c0c6711099e4d870d8d83967519fbda0471bd4acd355f6078a8d1413a746ef59fad1df03d88e2a36f95e5abad7a668e9b7bbd9785d4b9cc65"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "teex@1.0.1",
+      "type": "library",
+      "name": "teex",
+      "version": "1.0.1",
+      "scope": "required",
+      "author": "Mathias Buus (@mafintosh)",
+      "description": "Turn a readable stream into multiple readable streamx streams",
+      "purl": "pkg:npm/teex@1.0.1",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/teex/-/teex-1.0.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mafintosh/teex.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/mafintosh/teex"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mafintosh/teex/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "79813a88423ad8d8b51fca086bb2a50d4eae401b6aaf811a8e78b7c17eeba5f5c3f32b05c7ccf4f9dae2f8a5843d6a41b315dfc6ee7cc7fd23bd3553d5e90e4a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "text-decoder@1.2.7",
+      "type": "library",
+      "name": "text-decoder",
+      "version": "1.2.7",
+      "scope": "required",
+      "author": "Holepunch",
+      "description": "Streaming text decoder that preserves multibyte Unicode characters",
+      "purl": "pkg:npm/text-decoder@1.2.7",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/text-decoder/-/text-decoder-1.2.7.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/holepunchto/text-decoder.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/holepunchto/text-decoder#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/holepunchto/text-decoder/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "be52f2b5791e3f8c6f12ada8b477897d24084725b1a3fa191846d7aed10417d1e79ab765cb9f6c51bcd9fd08325ae2d81dcb421f1145e2d45064d43d93ad04c5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "token-types@6.1.2",
+      "type": "library",
+      "name": "token-types",
+      "version": "6.1.2",
+      "scope": "optional",
+      "author": "Borewit",
+      "description": "Common token types for decoding and encoding numeric and string values",
+      "purl": "pkg:npm/token-types@6.1.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/token-types/-/token-types-6.1.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Borewit/token-types.git"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Borewit/token-types/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7515dc872f82d0880af163c2eb1bc21c544859851baaa74420a3da2a8fc071350dcf02d32ba007ed18dd2d6b0465c00dfd305db5f530dcf60480faf954fafac3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "tunnel-agent@0.6.0",
+      "type": "library",
+      "name": "tunnel-agent",
+      "version": "0.6.0",
+      "scope": "optional",
+      "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.futurealoof.com)",
+      "description": "HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.",
+      "purl": "pkg:npm/tunnel-agent@0.6.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mikeal/tunnel-agent"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "31c9cd895d65f1161e63cb41804a6ea1d082d662d475b48df826012fb909b093489ce3fc5230c3130764e8cc3ad2f74b2ebaf934729984c00e4ab476359b90fb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "turndown@7.2.4",
+      "type": "library",
+      "name": "turndown",
+      "version": "7.2.4",
+      "scope": "optional",
+      "author": "Dom Christie",
+      "description": "A library that converts HTML to Markdown",
+      "purl": "pkg:npm/turndown@7.2.4",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/turndown/-/turndown-7.2.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mixmark-io/turndown.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "23cc85b1f4739b32b4595d6934d380e00ef2e110df1713d1c5bdedf9edee8b5e2a4863b11ad8923fa1a3797f98e821dbec761a163ec40940fb544e6440c65619"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "typescript@7.0.2",
+      "type": "library",
+      "name": "typescript",
+      "version": "7.0.2",
+      "scope": "required",
+      "author": "Microsoft Corp.",
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "purl": "pkg:npm/typescript@7.0.2",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/microsoft/TypeScript.git"
+        },
+        {
+          "type": "website",
+          "url": "https://www.typescriptlang.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/microsoft/TypeScript/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f0561abbdea8dcd28e85b8ca8bfa8dbc6fd6e63873c646dd9b9b23f406d9ff94f9b16aa7de12602df1b1dbbb11299593bf2cc23fc74b4414dfe6d05349155434"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "uint8array-extras@1.6.0",
+      "type": "library",
+      "name": "uint8array-extras",
+      "version": "1.6.0",
+      "scope": "optional",
+      "author": "Sindre Sorhus",
+      "description": "Useful utilities for working with Uint8Array (and Buffer)",
+      "purl": "pkg:npm/uint8array-extras@1.6.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/uint8array-extras/-/uint8array-extras-1.6.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f2201ab154b8c14c7480f2e31fc5edcf63de0f34d28b2f1088b1aed834f75f9194f9e8051108699dbb647a16c0c23bc3731204466098732b2238316613751dd1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "undici@7.30.1",
+      "type": "library",
+      "name": "undici",
+      "version": "7.30.1",
+      "scope": "required",
+      "description": "An HTTP/1.1 client, written from scratch for Node.js",
+      "purl": "pkg:npm/undici@7.30.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/undici/-/undici-7.30.1.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/nodejs/undici.git"
+        },
+        {
+          "type": "website",
+          "url": "https://undici.nodejs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/undici/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d372ab31b8c814359047944d3eb4b0ddb775af5d89a7215097dff2c6351b26daa48e6965a82e65163661eae8deb8908aafc10e42f456f3bd8ecbf6b3fa72d8c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "undici-types@7.24.6",
+      "type": "library",
+      "name": "undici-types",
+      "version": "7.24.6",
+      "scope": "required",
+      "description": "A stand-alone types package for Undici",
+      "purl": "pkg:npm/undici-types@7.24.6",
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/nodejs/undici.git"
+        },
+        {
+          "type": "website",
+          "url": "https://undici.nodejs.org"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/undici/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "591356fac2608f9381378ff42691c5aadab38696e75741ae07e3a8cc0f6008bedaf7ddd2994fb5241642ccb37162c6cc7c87832fe953b29843e6337937e9f4ce"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "unenv@2.0.0-rc.24",
+      "type": "library",
+      "name": "unenv",
+      "version": "2.0.0-rc.24",
+      "scope": "required",
+      "purl": "pkg:npm/unenv@2.0.0-rc.24",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/unenv/-/unenv-2.0.0-rc.24.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8bba910a6638db3982c2762587d1f64af2c4ca91051b27b989198430a8dc1a2ef393d52aba28118c5b532f3d1362aaf46462d985a30797f7e8cb56d947e0b097"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "unstorage@2.0.0-alpha.11",
+      "type": "library",
+      "name": "unstorage",
+      "version": "2.0.0-alpha.11",
+      "scope": "required",
+      "description": "Universal Storage Layer",
+      "purl": "pkg:npm/unstorage@2.0.0-alpha.11",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/unstorage/-/unstorage-2.0.0-alpha.11.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "unjs/unstorage"
+        },
+        {
+          "type": "website",
+          "url": "https://unstorage.unjs.io"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e2b0cefcd8e09e46d5bd600fa71ba05fb608ff15690bbe0d2eb9806c7e88d03e2171256aff59b9ab6a527d08cffc006cfbb12c46d3ff663c98303f5b10181e4f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "util-deprecate@1.0.2",
+      "type": "library",
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "scope": "optional",
+      "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+      "description": "The Node.js `util.deprecate()` function with browser support",
+      "purl": "pkg:npm/util-deprecate@1.0.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/TooTallNate/util-deprecate.git"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/TooTallNate/util-deprecate"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/TooTallNate/util-deprecate/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "10f0f9ab5b97c85c49a42acb9c27359c79eade039ae83641a1c008888d93692080ed5089d5424331a802cc891736c5187c3d5d68afff2d3110f318886eb1ed73"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "which@2.0.2",
+      "type": "library",
+      "name": "which",
+      "version": "2.0.2",
+      "scope": "required",
+      "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
+      "description": "Like which(1) unix command. Find the first instance of an executable in the PATH.",
+      "purl": "pkg:npm/which@2.0.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/node-which.git"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "04b2374e5d535b73ef97bd25df2ab763ae22f9ac29c17aac181616924a8cb676d782b303fb28fbae15b492e103c7325a6171a3116e6881aa4a34c10a34c8e26c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "wrappy@1.0.2",
+      "type": "library",
+      "name": "wrappy",
+      "version": "1.0.2",
+      "scope": "optional",
+      "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+      "description": "Callback wrapping utility",
+      "purl": "pkg:npm/wrappy@1.0.2",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/npm/wrappy"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/npm/wrappy"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/npm/wrappy/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9784a9fc346c7a8afdc0be84bd5dbe4ee427eb774c90f8d9feca7d5e48214c46d5f4a94f4b5c54b19deeeff2103b8c31b5c141e1b82940f45c477402bdeccf71"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "xdg-app-paths@5.5.1",
+      "type": "library",
+      "name": "xdg-app-paths",
+      "version": "5.5.1",
+      "scope": "required",
+      "author": "Roy Ivy III",
+      "description": "Generate portable (and XDG-compatible) paths for storing cache, config, data, etc",
+      "purl": "pkg:npm/xdg-app-paths@5.5.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/xdg-app-paths/-/xdg-app-paths-5.5.1.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "848ddf94e0783cb648cb9a6b6ed4e98aba1bb4f13666d679dacccefb698cf447e9e84accdfdf0b6be0b5948a4d5837cda1093ee8bb22ea731c0b0541ee9c5e31"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "xdg-portable@7.3.0",
+      "type": "library",
+      "name": "xdg-portable",
+      "version": "7.3.0",
+      "scope": "required",
+      "author": "Roy Ivy III",
+      "description": "Generate portable XDG Base Directory paths",
+      "purl": "pkg:npm/xdg-portable@7.3.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/xdg-portable/-/xdg-portable-7.3.0.tgz"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b2a30cb8bd6b7341663013b30a9774caecbdb6ba85db24d355ef84f6883009259009d0c4b50530ad93d3e80c6ab6c14644dc727209dc6cfff198e3923f0e5953"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "xml-naming@0.3.0",
+      "type": "library",
+      "name": "xml-naming",
+      "version": "0.3.0",
+      "scope": "optional",
+      "author": "Amit Gupta (https://solothought.com)",
+      "description": "Validates XML name productions — Name, NCName, QName, NMToken, NMTokens — for XML 1.0 and 1.1",
+      "purl": "pkg:npm/xml-naming@0.3.0",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/xml-naming/-/xml-naming-0.3.0.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/NaturalIntelligence/xml-naming"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/NaturalIntelligence/xml-naming/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8218a0d93044fc7d7568e56099a840dcc8629af901afa2486249c7fc385d935d275f075b22a049b1b7ccc69bc53c6f1b030efb80ddbd6905af2a9995a0f96f3d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "yaml@2.9.1",
+      "type": "library",
+      "name": "yaml",
+      "version": "2.9.1",
+      "scope": "optional",
+      "author": "Eemeli Aro <eemeli@gmail.com>",
+      "description": "JavaScript parser and stringifier for YAML",
+      "purl": "pkg:npm/yaml@2.9.1",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/yaml/-/yaml-2.9.1.tgz"
+        },
+        {
+          "type": "website",
+          "url": "https://eemeli.org/yaml/"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dcdc4df3eefc39dcdb4fb0bf5a31acc9f3c0b4968ddc5343b16c6fed8ee6703b13fe83a6816f01a72410145067bd91378fd63649dcf550b14b7b32fb11bdb217"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "zod@4.5.4",
+      "type": "library",
+      "name": "zod",
+      "version": "4.5.4",
+      "scope": "required",
+      "author": "Colin McDonnell <zod@colinhacks.com>",
+      "description": "TypeScript-first schema declaration and validation library with static type inference",
+      "purl": "pkg:npm/zod@4.5.4",
+      "properties": [],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://registry.npmjs.org/zod/-/zod-4.5.4.tgz"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/colinhacks/zod.git"
+        },
+        {
+          "type": "website",
+          "url": "https://zod.dev"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/colinhacks/zod/issues"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b02f79b53e621c71fd82da63e80f35921f8d11a44050537eaa550f0d46d17ce32f35fe50081aac6f75a0be7a55b4ae58fb851f03a2aab9fa2db93bcc1a24e5b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "aizoya-autonomous-operations@0.0.0",
+      "dependsOn": [
+        "@vercel/connect@2.5.2",
+        "ai@7.0.137",
+        "eve@0.80.1",
+        "zod@4.5.4",
+        "@sparticuz/chromium@153.0.0",
+        "@types/node@24.19.2",
+        "just-bash@3.6.0",
+        "typescript@7.0.2"
+      ]
+    },
+    {
+      "ref": "@ai-sdk/gateway@4.0.110",
+      "dependsOn": [
+        "zod@4.5.4",
+        "@ai-sdk/provider@4.0.26",
+        "@ai-sdk/provider-utils@5.0.58",
+        "@vercel/oidc@3.2.0"
+      ]
+    },
+    {
+      "ref": "@vercel/oidc@3.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "@ai-sdk/provider@4.0.26",
+      "dependsOn": [
+        "json-schema@0.4.0"
+      ]
+    },
+    {
+      "ref": "@ai-sdk/provider-utils@5.0.58",
+      "dependsOn": [
+        "zod@4.5.4",
+        "@ai-sdk/provider@4.0.26",
+        "@standard-schema/spec@1.1.0",
+        "@workflow/serde@4.1.0",
+        "eventsource-parser@3.1.1",
+        "undici@7.30.1"
+      ]
+    },
+    {
+      "ref": "@borewit/text-codec@0.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "@mixmark-io/domino@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "@mongodb-js/zstd@7.0.0",
+      "dependsOn": [
+        "node-addon-api@8.9.2",
+        "prebuild-install@7.1.3"
+      ]
+    },
+    {
+      "ref": "@nodable/entities@3.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "@oxc-project/types@0.154.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "@rolldown/binding-linux-x64-gnu@1.2.14",
+      "dependsOn": []
+    },
+    {
+      "ref": "@rolldown/binding-linux-x64-musl@1.2.14",
+      "dependsOn": []
+    },
+    {
+      "ref": "@rolldown/pluginutils@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "@sparticuz/chromium@153.0.0",
+      "dependsOn": [
+        "tar-fs@3.1.3"
+      ]
+    },
+    {
+      "ref": "tar-fs@3.1.3",
+      "dependsOn": [
+        "pump@3.0.4",
+        "tar-stream@3.2.2",
+        "bare-fs@4.8.4",
+        "bare-path@3.1.2"
+      ]
+    },
+    {
+      "ref": "tar-stream@3.2.2",
+      "dependsOn": [
+        "b4a@1.9.0",
+        "bare-fs@4.8.4",
+        "fast-fifo@1.3.2",
+        "streamx@2.28.1"
+      ]
+    },
+    {
+      "ref": "@standard-schema/spec@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "@tokenizer/inflate@0.4.1",
+      "dependsOn": [
+        "debug@4.4.3",
+        "token-types@6.1.2"
+      ]
+    },
+    {
+      "ref": "@tokenizer/token@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "@types/node@24.19.2",
+      "dependsOn": [
+        "undici-types@7.24.6"
+      ]
+    },
+    {
+      "ref": "@typescript/typescript-linux-x64@7.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "@vercel/cli-config@0.3.1",
+      "dependsOn": [
+        "zod@4.1.11",
+        "xdg-app-paths@5.5.1"
+      ]
+    },
+    {
+      "ref": "zod@4.1.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "@vercel/cli-exec@1.0.1",
+      "dependsOn": [
+        "execa@5.1.1"
+      ]
+    },
+    {
+      "ref": "@vercel/connect@2.5.2",
+      "dependsOn": [
+        "ai@7.0.137",
+        "eve@0.80.1",
+        "@vercel/oidc@4.0.1"
+      ]
+    },
+    {
+      "ref": "@vercel/oidc@4.0.1",
+      "dependsOn": [
+        "jose@5.10.0",
+        "@vercel/cli-config@0.3.1",
+        "@vercel/cli-exec@1.0.1"
+      ]
+    },
+    {
+      "ref": "@workflow/serde@4.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "ai@7.0.137",
+      "dependsOn": [
+        "zod@4.5.4",
+        "@ai-sdk/gateway@4.0.110",
+        "@ai-sdk/provider@4.0.26",
+        "@ai-sdk/provider-utils@5.0.58"
+      ]
+    },
+    {
+      "ref": "anynum@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "b4a@1.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "bare-events@2.9.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "bare-fs@4.8.4",
+      "dependsOn": [
+        "bare-events@2.9.2",
+        "bare-path@3.1.2",
+        "bare-stream@2.13.4",
+        "bare-url@2.5.5",
+        "fast-fifo@1.3.2"
+      ]
+    },
+    {
+      "ref": "bare-path@3.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "bare-stream@2.13.4",
+      "dependsOn": [
+        "bare-events@2.9.2",
+        "b4a@1.9.0",
+        "streamx@2.28.1",
+        "teex@1.0.1"
+      ]
+    },
+    {
+      "ref": "bare-url@2.5.5",
+      "dependsOn": [
+        "bare-path@3.1.2"
+      ]
+    },
+    {
+      "ref": "base64-js@1.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "bl@4.1.0",
+      "dependsOn": [
+        "buffer@5.7.1",
+        "inherits@2.0.4",
+        "readable-stream@3.6.2"
+      ]
+    },
+    {
+      "ref": "buffer@5.7.1",
+      "dependsOn": [
+        "base64-js@1.5.1",
+        "ieee754@1.2.1"
+      ]
+    },
+    {
+      "ref": "chownr@1.1.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "commander@6.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "consola@3.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "cross-spawn@7.0.6",
+      "dependsOn": [
+        "path-key@3.1.1",
+        "shebang-command@2.0.0",
+        "which@2.0.2"
+      ]
+    },
+    {
+      "ref": "crossws@0.4.15",
+      "dependsOn": [
+        "srvx@1.0.6"
+      ]
+    },
+    {
+      "ref": "db0@0.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "debug@4.4.3",
+      "dependsOn": [
+        "ms@2.1.3"
+      ]
+    },
+    {
+      "ref": "decompress-response@6.0.0",
+      "dependsOn": [
+        "mimic-response@3.1.0"
+      ]
+    },
+    {
+      "ref": "deep-extend@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "detect-libc@2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "diff@8.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "end-of-stream@1.4.5",
+      "dependsOn": [
+        "once@1.4.0"
+      ]
+    },
+    {
+      "ref": "env-runner@0.2.3",
+      "dependsOn": [
+        "crossws@0.4.15",
+        "exsolve@1.1.3",
+        "httpxy@0.5.5",
+        "srvx@1.0.6"
+      ]
+    },
+    {
+      "ref": "eve@0.80.1",
+      "dependsOn": [
+        "ai@7.0.137",
+        "just-bash@3.6.0",
+        "nitro@3.0.260903-beta",
+        "undici@8.10.2"
+      ]
+    },
+    {
+      "ref": "undici@8.10.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "events-universal@1.0.1",
+      "dependsOn": [
+        "bare-events@2.9.2"
+      ]
+    },
+    {
+      "ref": "eventsource-parser@3.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "execa@5.1.1",
+      "dependsOn": [
+        "cross-spawn@7.0.6",
+        "get-stream@6.0.1",
+        "human-signals@2.1.0",
+        "is-stream@2.0.1",
+        "merge-stream@2.0.0",
+        "npm-run-path@4.0.1",
+        "onetime@5.1.2",
+        "signal-exit@3.0.7",
+        "strip-final-newline@2.0.0"
+      ]
+    },
+    {
+      "ref": "expand-template@2.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "exsolve@1.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "fast-fifo@1.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "fast-xml-builder@1.3.1",
+      "dependsOn": [
+        "path-expression-matcher@1.6.2",
+        "xml-naming@0.3.0"
+      ]
+    },
+    {
+      "ref": "fast-xml-parser@5.11.2",
+      "dependsOn": [
+        "@nodable/entities@3.1.0",
+        "fast-xml-builder@1.3.1",
+        "is-unsafe@2.0.2",
+        "path-expression-matcher@1.6.2",
+        "strnum@2.5.1",
+        "xml-naming@0.3.0"
+      ]
+    },
+    {
+      "ref": "file-type@21.3.4",
+      "dependsOn": [
+        "@tokenizer/inflate@0.4.1",
+        "strtok3@10.6.2",
+        "token-types@6.1.2",
+        "uint8array-extras@1.6.0"
+      ]
+    },
+    {
+      "ref": "fs-constants@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "get-stream@6.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "github-from-package@0.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "guarded-fetch@0.1.3",
+      "dependsOn": [
+        "ipaddr.js@2.2.0",
+        "undici@7.29.1"
+      ]
+    },
+    {
+      "ref": "undici@7.29.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "h3@2.0.5",
+      "dependsOn": [
+        "crossws@0.4.15",
+        "ocache@0.3.0",
+        "rou3@1.0.0",
+        "srvx@1.0.6"
+      ]
+    },
+    {
+      "ref": "rou3@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "hookable@6.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "httpxy@0.5.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "human-signals@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "ieee754@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "inherits@2.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "ini@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "ipaddr.js@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "is-stream@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "is-unsafe@2.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "isexe@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "jose@5.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "json-schema@0.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "just-bash@3.6.0",
+      "dependsOn": [
+        "diff@8.0.4",
+        "fast-xml-parser@5.11.2",
+        "file-type@21.3.4",
+        "guarded-fetch@0.1.3",
+        "ini@6.0.0",
+        "modern-tar@0.7.7",
+        "papaparse@5.7.0",
+        "re2js@1.3.3",
+        "run@2.1.3",
+        "seek-bzip@2.0.0",
+        "smol-toml@1.9.1",
+        "sprintf-js@1.1.3",
+        "sql.js@1.15.0",
+        "turndown@7.2.4",
+        "typescript@5.9.3",
+        "yaml@2.9.1",
+        "@mongodb-js/zstd@7.0.0"
+      ]
+    },
+    {
+      "ref": "run@2.1.3",
+      "dependsOn": [
+        "typescript@5.9.3"
+      ]
+    },
+    {
+      "ref": "typescript@5.9.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "merge-stream@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "mimic-fn@2.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "mimic-response@3.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "minimist@1.2.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "mkdirp-classic@0.5.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "modern-tar@0.7.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "ms@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "napi-build-utils@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "nf3@0.3.24",
+      "dependsOn": []
+    },
+    {
+      "ref": "nitro@3.0.260903-beta",
+      "dependsOn": [
+        "consola@3.4.2",
+        "crossws@0.4.15",
+        "db0@0.4.1",
+        "env-runner@0.2.3",
+        "h3@2.0.5",
+        "hookable@6.1.2",
+        "nf3@0.3.24",
+        "ocache@0.3.0",
+        "rolldown@1.2.14",
+        "rou3@0.9.2",
+        "srvx@1.0.6",
+        "unenv@2.0.0-rc.24",
+        "unstorage@2.0.0-alpha.11"
+      ]
+    },
+    {
+      "ref": "node-abi@3.99.0",
+      "dependsOn": [
+        "semver@7.8.5"
+      ]
+    },
+    {
+      "ref": "node-addon-api@8.9.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "npm-run-path@4.0.1",
+      "dependsOn": [
+        "path-key@3.1.1"
+      ]
+    },
+    {
+      "ref": "ocache@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "once@1.4.0",
+      "dependsOn": [
+        "wrappy@1.0.2"
+      ]
+    },
+    {
+      "ref": "onetime@5.1.2",
+      "dependsOn": [
+        "mimic-fn@2.1.0"
+      ]
+    },
+    {
+      "ref": "os-paths@4.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "papaparse@5.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "path-expression-matcher@1.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "path-key@3.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pathe@2.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "prebuild-install@7.1.3",
+      "dependsOn": [
+        "detect-libc@2.1.2",
+        "expand-template@2.0.3",
+        "github-from-package@0.0.0",
+        "minimist@1.2.8",
+        "mkdirp-classic@0.5.3",
+        "napi-build-utils@2.0.0",
+        "node-abi@3.99.0",
+        "pump@3.0.4",
+        "rc@1.2.8",
+        "simple-get@4.0.1",
+        "tar-fs@2.1.5",
+        "tunnel-agent@0.6.0"
+      ]
+    },
+    {
+      "ref": "pump@3.0.4",
+      "dependsOn": [
+        "end-of-stream@1.4.5",
+        "once@1.4.0"
+      ]
+    },
+    {
+      "ref": "rc@1.2.8",
+      "dependsOn": [
+        "deep-extend@0.6.0",
+        "ini@1.3.8",
+        "minimist@1.2.8",
+        "strip-json-comments@2.0.1"
+      ]
+    },
+    {
+      "ref": "ini@1.3.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "re2js@1.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "readable-stream@3.6.2",
+      "dependsOn": [
+        "inherits@2.0.4",
+        "string_decoder@1.3.0",
+        "util-deprecate@1.0.2"
+      ]
+    },
+    {
+      "ref": "rolldown@1.2.14",
+      "dependsOn": [
+        "@oxc-project/types@0.154.0",
+        "@rolldown/pluginutils@1.0.1",
+        "@rolldown/binding-linux-x64-gnu@1.2.14",
+        "@rolldown/binding-linux-x64-musl@1.2.14"
+      ]
+    },
+    {
+      "ref": "rou3@0.9.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "safe-buffer@5.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "seek-bzip@2.0.0",
+      "dependsOn": [
+        "commander@6.2.1"
+      ]
+    },
+    {
+      "ref": "semver@7.8.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "shebang-command@2.0.0",
+      "dependsOn": [
+        "shebang-regex@3.0.0"
+      ]
+    },
+    {
+      "ref": "shebang-regex@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "signal-exit@3.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "simple-concat@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "simple-get@4.0.1",
+      "dependsOn": [
+        "decompress-response@6.0.0",
+        "once@1.4.0",
+        "simple-concat@1.0.1"
+      ]
+    },
+    {
+      "ref": "smol-toml@1.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "sprintf-js@1.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "sql.js@1.15.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "srvx@1.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "streamx@2.28.1",
+      "dependsOn": [
+        "events-universal@1.0.1",
+        "fast-fifo@1.3.2",
+        "text-decoder@1.2.7"
+      ]
+    },
+    {
+      "ref": "string_decoder@1.3.0",
+      "dependsOn": [
+        "safe-buffer@5.2.1"
+      ]
+    },
+    {
+      "ref": "strip-final-newline@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "strip-json-comments@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "strnum@2.5.1",
+      "dependsOn": [
+        "anynum@1.0.1"
+      ]
+    },
+    {
+      "ref": "strtok3@10.6.2",
+      "dependsOn": [
+        "@tokenizer/token@0.3.0"
+      ]
+    },
+    {
+      "ref": "tar-fs@2.1.5",
+      "dependsOn": [
+        "chownr@1.1.4",
+        "mkdirp-classic@0.5.3",
+        "pump@3.0.4",
+        "tar-stream@2.2.0"
+      ]
+    },
+    {
+      "ref": "tar-stream@2.2.0",
+      "dependsOn": [
+        "bl@4.1.0",
+        "end-of-stream@1.4.5",
+        "fs-constants@1.0.0",
+        "inherits@2.0.4",
+        "readable-stream@3.6.2"
+      ]
+    },
+    {
+      "ref": "teex@1.0.1",
+      "dependsOn": [
+        "streamx@2.28.1"
+      ]
+    },
+    {
+      "ref": "text-decoder@1.2.7",
+      "dependsOn": [
+        "b4a@1.9.0"
+      ]
+    },
+    {
+      "ref": "token-types@6.1.2",
+      "dependsOn": [
+        "@borewit/text-codec@0.2.2",
+        "@tokenizer/token@0.3.0",
+        "ieee754@1.2.1"
+      ]
+    },
+    {
+      "ref": "tunnel-agent@0.6.0",
+      "dependsOn": [
+        "safe-buffer@5.2.1"
+      ]
+    },
+    {
+      "ref": "turndown@7.2.4",
+      "dependsOn": [
+        "@mixmark-io/domino@2.2.0"
+      ]
+    },
+    {
+      "ref": "typescript@7.0.2",
+      "dependsOn": [
+        "@typescript/typescript-linux-x64@7.0.2"
+      ]
+    },
+    {
+      "ref": "uint8array-extras@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "undici@7.30.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "undici-types@7.24.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "unenv@2.0.0-rc.24",
+      "dependsOn": [
+        "pathe@2.0.3"
+      ]
+    },
+    {
+      "ref": "unstorage@2.0.0-alpha.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "util-deprecate@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "which@2.0.2",
+      "dependsOn": [
+        "isexe@2.0.0"
+      ]
+    },
+    {
+      "ref": "wrappy@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "xdg-app-paths@5.5.1",
+      "dependsOn": [
+        "os-paths@4.4.0",
+        "xdg-portable@7.3.0"
+      ]
+    },
+    {
+      "ref": "xdg-portable@7.3.0",
+      "dependsOn": [
+        "os-paths@4.4.0"
+      ]
+    },
+    {
+      "ref": "xml-naming@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "yaml@2.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "zod@4.5.4",
+      "dependsOn": []
+    }
+  ]
+}
